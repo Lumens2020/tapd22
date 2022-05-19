@@ -29,6 +29,7 @@ INT16U const NtcToRes[NTC_NUM] =
 };
 
 
+
 void adc_config(void)
 {
     /* ADC contineous function enable */

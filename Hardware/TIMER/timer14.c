@@ -156,32 +156,38 @@ void Timer14_Scr_Heat_Flag(INT8U val)
 
 
 /*加热+保温*/
+INT8U heatflag = 0;
 static void Relay_Heat_Keep(INT8U realtemp,INT8U heattemp,INT8U lowtemp,INT8U keeptemp,INT8U exceedtemp )
 {
-			static INT8U count = 0,heatflag = 0;
+			static INT8U count = 0;
 	
       if( heatflag == 0 )
 			{
-					if( realtemp >= exceedtemp  )
-					{							
-								 nvic_irq_disable(EXTI4_15_IRQn);       //不使能
-								 timer_disable(TIMER14);                //定时器不使能					
-									
-								 RELAY_HEAT_OFF;						
-												 
-					}
-					else if( realtemp >= lowtemp && realtemp <= keeptemp )
-					{
-								 nvic_irq_enable(EXTI4_15_IRQn, 3U);   //使能外部中断
-					}
-					else if( realtemp < lowtemp )
+				
+						if( realtemp < lowtemp )
 					{
 						      heatflag = 1;
 									nvic_irq_disable(EXTI4_15_IRQn);       //不使能
 									timer_disable(TIMER14);                //定时器不使能
 						
 									RELAY_HEAT_ON;
-					}			
+					}	
+			
+					else if( realtemp >= exceedtemp  )
+					{							
+								 nvic_irq_disable(EXTI4_15_IRQn);       //不使能
+								 timer_disable(TIMER14);                //定时器不使能		
+					       /*填充加热状态*/
+					       Mdu_Data_Auto_Update(ProData3,0,TRUE);							
+								 RELAY_HEAT_OFF;		
+					
+												 
+					}
+						else if( realtemp >= lowtemp && realtemp <= keeptemp )
+					{
+								 nvic_irq_enable(EXTI4_15_IRQn, 3U);   //使能外部中断
+					}
+		
 					
 		  }
 			else
@@ -193,7 +199,7 @@ static void Relay_Heat_Keep(INT8U realtemp,INT8U heattemp,INT8U lowtemp,INT8U ke
 							{
 								 count    = 0;				
 								 heatflag = 0;	
-								
+
 								 RELAY_HEAT_OFF;						
 							}		
 			     }
@@ -205,6 +211,9 @@ static void Relay_Heat_Keep(INT8U realtemp,INT8U heattemp,INT8U lowtemp,INT8U ke
 			{
 				
 				  gpio_bit_reset(GPIOC,GPIO_PIN_13);  //通信测试
+				
+					/*填充加热状态*/
+					Mdu_Data_Auto_Update(ProData3,0,TRUE);	
 				  RELAY_HEAT_OFF;	
 					nvic_irq_disable(EXTI4_15_IRQn);       //不使能
 					timer_disable(TIMER14);                //定时器不使能	
@@ -230,14 +239,17 @@ void Realy_Heat_Task(void *pMsg)
 						 {
 							 
 							   case KEEP_TEMP_95C:{
+									        
 									          Relay_Heat_Keep(RealTemp,HOT_WATER_HEAT_93,HOT_WATER_LOW_92,HOT_WATER_KEEP_95,HOT_WATER_EXCEED_96 );
 							          }break;
 								 
 								 case KEEP_TEMP_60C:{
+									         
 									          Relay_Heat_Keep(RealTemp,HOT_WATER_HEAT_58,HOT_WATER_LOW_57,HOT_WATER_KEEP_60,HOT_WATER_EXCEED_61 );
 							          }break;
 								 
 								 case KEEP_TEMP_45C:{
+									          
 									          Relay_Heat_Keep(RealTemp,HOT_WATER_HEAT_43,HOT_WATER_LOW_42,HOT_WATER_KEEP_45,HOT_WATER_EXCEED_46 );
 							          }break;
 								 
@@ -248,13 +260,16 @@ void Realy_Heat_Task(void *pMsg)
 				 }
 				 else
 				 {
-			 					 
+		        /*填充加热状态*/
+//					  Mdu_Data_Auto_Update(ProData3,0,TRUE);	
 						RELAY_HEAT_OFF;
 						RESHUI_MOTOR_OFF_24V;		
 				 }
 		 }
 		 else
 		 {
+			     /*填充加热状态*/
+//					 Mdu_Data_Auto_Update(ProData3,0,TRUE);	
 			     RELAY_HEAT_OFF; 
 		 }
 

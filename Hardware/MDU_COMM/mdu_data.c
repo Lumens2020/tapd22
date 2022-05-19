@@ -6,7 +6,7 @@
  
 
 /*数据发送临时缓存区*/
-volatile INT8U MduTxProBuf[ProDataNum] = {0x9A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0};
+volatile INT8U MduTxProBuf[ProDataNum] = {0x9A,0,0,0x01,0,0,0,0,0,0,0,0,0,0,0,0};
 
 
 void Mdu_Data_Struct_Init(void)
@@ -34,8 +34,8 @@ void Mdu_Data_Update_Infor(void)
 		return;
 	}
 	/*把发送值送到一个临时缓冲区*/
-//	 MduTxProBuf[ProData2]            = MduDataRx.DATA.CommandType;
-	 MduTxProBuf[ProData2]            = 0X02;
+	 MduTxProBuf[ProData2]            = MduDataRx.DATA.CommandType;
+//	 MduTxProBuf[ProData2]            = 0X02;
 	 MduTxProBuf[ProData4]            = MduDataRx.DATA.KeepTempSet;
 	
 
@@ -43,10 +43,11 @@ void Mdu_Data_Update_Infor(void)
    MduDataTx.DATA.Head              = MduTxProBuf[ProData0];
 	 MduDataTx.DATA.RandomNum         = MduTxProBuf[ProData1];
    MduDataTx.DATA.ReplyType         = MduTxProBuf[ProData2];  //查询:01,控制：02
-//   MduDataTx.DATA.MduDataData3.Val  = MduTxProBuf[ProData3];     //bit位计算
-	 MduDataTx.DATA.MduDataData3.Val  = 0X01;                        //bit位计算
+	 MduDataTx.DATA.MduDataData3.Val  = MduTxProBuf[ProData3];  //bit位计算
 	 MduDataTx.DATA.ReDanTemState     = MduTxProBuf[ProData4];  //默认：0，开水：01，热饮：02，冲奶：03
+	 if( MduTxProBuf[ProData5] >=97 )  MduTxProBuf[ProData5] -= 1;
 	 MduDataTx.DATA.ReDanTemp         = MduTxProBuf[ProData5];  //热胆温度
+	
 	 MduDataTx.DATA.OutWaterType      = MduDataRx.DATA.KeyValue;  //停止：0，常温水：1，热水：2
 	
    MduDataTx.DATA.OriginTdsHigh     = MduTxProBuf[ProData7];  //原水TDS值的高位
@@ -113,16 +114,19 @@ void Mdu_Data_Rx_Exe_Func(void)
 			 /*保温设定*/	
 			 if( ( MduDataRx.DATA.CommandType == 0x02 )&&( MduDataRx.DATA.KeepTempSet == 0x01) )
 			{
+				  Mdu_Data_Auto_Update(ProData3,1,TRUE);
 //				  DeviceInfor.InControl.Keep.Temp95   = KEEP_TEMP_95C;
 				  DeviceInfor.InControl.Keep.SetTemp  = KEEP_TEMP_95C;
 			}
 			else if( ( MduDataRx.DATA.CommandType == 0x02 )&&( MduDataRx.DATA.KeepTempSet == 0x02) )
 			{
+				  Mdu_Data_Auto_Update(ProData3,1,TRUE);
 //				  DeviceInfor.InControl.Keep.Temp60   = KEEP_TEMP_60C;
 				  DeviceInfor.InControl.Keep.SetTemp  = KEEP_TEMP_60C;
 			}
 			else if( ( MduDataRx.DATA.CommandType == 0x02 )&&( MduDataRx.DATA.KeepTempSet == 0x03) )
 			{
+				  Mdu_Data_Auto_Update(ProData3,1,TRUE);
 //				  DeviceInfor.InControl.Keep.Temp45   = KEEP_TEMP_45C;	 
           DeviceInfor.InControl.Keep.SetTemp  = KEEP_TEMP_45C;				
 			}

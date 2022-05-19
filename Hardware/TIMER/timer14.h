@@ -13,20 +13,20 @@
 #define  RELAY_HEAT_OFF    gpio_bit_reset(GPIOB,GPIO_PIN_3)
 
 /*95¶È*/
-#define  HOT_WATER_LOW_92      91
+#define  HOT_WATER_LOW_92      92
 #define  HOT_WATER_HEAT_93     92
-#define  HOT_WATER_KEEP_95     93
-#define  HOT_WATER_EXCEED_96   94
+#define  HOT_WATER_KEEP_95     94
+#define  HOT_WATER_EXCEED_96   95
 
 /*60¶È*/
 #define  HOT_WATER_LOW_57      57
-#define  HOT_WATER_HEAT_58     57
+#define  HOT_WATER_HEAT_58     58
 #define  HOT_WATER_KEEP_60     59
 #define  HOT_WATER_EXCEED_61   60
 
 /*45¶È*/
 #define  HOT_WATER_LOW_42      42
-#define  HOT_WATER_HEAT_43     42
+#define  HOT_WATER_HEAT_43     43
 #define  HOT_WATER_KEEP_45     44
 #define  HOT_WATER_EXCEED_46   45
 

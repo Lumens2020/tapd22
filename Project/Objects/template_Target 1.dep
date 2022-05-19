@@ -1,0 +1,2112 @@
+Dependencies for Project 'template', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 6150000::V6.15::ARMCLANG
+F (..\User\gd32e23x_it.c)(0x627F6EEF)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -I ../Libraries/Include -I ../User -I ../CMSIS -I ../Hardware/DEFINE -I ../Hardware/BSP -I ../Hardware/MULTITASK -I ../Hardware/VECTOR -I ../Hardware/LED -I ../Hardware/QUEUE -I ../Hardware/PCMODEL -I ../Hardware/USART -I ../Hardware/MDU_COMM -I ../Hardware/TIMER -I ../Hardware/MOTOR -I ../Hardware/ADC -I ../Hardware/EXTI -I ../Hardware/WATERLEVEL -I ../Hardware/TM1650 -I ../Hardware/KEY -I ../Hardware/MSGQUEUE -I ../Hardware/GD32FLASH -I ../Hardware/RFID_COMM -I ../Hardware/VALVE-ID:/anzhuanglujing/GigaDevice/GD32E23x_DFP/1.0.0/Device/Include-ID:/anzhuanglujing/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DGD32E23x -DGD32E230-o ./objects/gd32e23x_it.o -MD)
+I (..\User\gd32e23x_it.h)(0x623AFC9E)
+I (..\CMSIS\gd32e23x.h)(0x5DF1A6B2)
+I (..\CMSIS\core_cm23.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\stdint.h)(0x6275305E)
+I (..\CMSIS\cmsis_version.h)(0x5E8ED122)
+I (..\CMSIS\cmsis_compiler.h)(0x5E8306C2)
+I (..\CMSIS\cmsis_armclang.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_compat.h)(0x5EE12742)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_acle.h)(0x5F268738)
+I (..\CMSIS\system_gd32e23x.h)(0x5DF1A6B2)
+I (..\User\gd32e23x_libopt.h)(0x5E0DBAB8)
+I (..\Libraries\Include\gd32e23x_adc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_crc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dbg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dma.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_exti.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fmc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_gpio.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_syscfg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_i2c.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_pmu.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_rcu.h)(0x5E659AAC)
+I (..\Libraries\Include\gd32e23x_rtc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_spi.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_timer.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_usart.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_wwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_misc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_cmp.h)(0x5DF1A6B2)
+I (..\User\main.h)(0x620DFF1E)
+I (..\User\systick.h)(0x62342AB1)
+I (..\Hardware\MULTITASK\multitask.h)(0x623AD219)
+I (..\Hardware\DEFINE\define.h)(0x6281A0D5)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\stdio.h)(0x5F36D0B4)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\string.h)(0x5F36D0A4)
+I (..\Hardware\BSP\bsp.h)(0x620E05B7)
+I (..\Hardware\VECTOR\vector.h)(0x620F0B54)
+I (..\Hardware\LED\led.h)(0x620F51FC)
+I (..\Hardware\QUEUE\queue.h)(0x62411199)
+I (..\Hardware\PCMODEL\pcmodel.h)(0x6228A46B)
+I (..\Hardware\USART\usart0.h)(0x62819F35)
+I (..\Hardware\MDU_COMM\mdu_data.h)(0x6281A11C)
+I (..\Hardware\USART\uart_timer_recv.h)(0x6224945D)
+I (..\Hardware\MDU_COMM\comm_snd.h)(0x624D9B28)
+I (..\Hardware\TIMER\timer2.h)(0x62579BEA)
+I (..\Hardware\MOTOR\motor.h)(0x62579BAF)
+I (..\Hardware\ADC\adc.h)(0x6281A68F)
+I (..\Hardware\EXTI\exti.h)(0x622AA6D3)
+I (..\Hardware\TIMER\timer14.h)(0x628318AE)
+I (..\Hardware\WATERLEVEL\waterlevel.h)(0x6281BF3B)
+I (..\Hardware\TM1650\tm1650.h)(0x62348A69)
+I (..\Hardware\KEY\key.h)(0x627F6AAF)
+I (..\Hardware\MSGQUEUE\msgqueue.h)(0x625E082C)
+I (..\Hardware\GD32FLASH\gd32flash.h)(0x62551376)
+I (..\Hardware\USART\usart1.h)(0x6281A161)
+I (..\Hardware\RFID_COMM\rfid_data.h)(0x6281A18D)
+I (..\Hardware\TIMER\timer15.h)(0x624FC375)
+I (..\Hardware\VALVE\valve.h)(0x6253C9DF)
+F (..\User\main.c)(0x62860225)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -I ../Libraries/Include -I ../User -I ../CMSIS -I ../Hardware/DEFINE -I ../Hardware/BSP -I ../Hardware/MULTITASK -I ../Hardware/VECTOR -I ../Hardware/LED -I ../Hardware/QUEUE -I ../Hardware/PCMODEL -I ../Hardware/USART -I ../Hardware/MDU_COMM -I ../Hardware/TIMER -I ../Hardware/MOTOR -I ../Hardware/ADC -I ../Hardware/EXTI -I ../Hardware/WATERLEVEL -I ../Hardware/TM1650 -I ../Hardware/KEY -I ../Hardware/MSGQUEUE -I ../Hardware/GD32FLASH -I ../Hardware/RFID_COMM -I ../Hardware/VALVE-ID:/anzhuanglujing/GigaDevice/GD32E23x_DFP/1.0.0/Device/Include-ID:/anzhuanglujing/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DGD32E23x -DGD32E230-o ./objects/main.o -MD)
+I (..\Hardware\DEFINE\define.h)(0x6281A0D5)
+I (..\CMSIS\gd32e23x.h)(0x5DF1A6B2)
+I (..\CMSIS\core_cm23.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\stdint.h)(0x6275305E)
+I (..\CMSIS\cmsis_version.h)(0x5E8ED122)
+I (..\CMSIS\cmsis_compiler.h)(0x5E8306C2)
+I (..\CMSIS\cmsis_armclang.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_compat.h)(0x5EE12742)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_acle.h)(0x5F268738)
+I (..\CMSIS\system_gd32e23x.h)(0x5DF1A6B2)
+I (..\User\gd32e23x_libopt.h)(0x5E0DBAB8)
+I (..\Libraries\Include\gd32e23x_adc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_crc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dbg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dma.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_exti.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fmc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_gpio.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_syscfg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_i2c.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_pmu.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_rcu.h)(0x5E659AAC)
+I (..\Libraries\Include\gd32e23x_rtc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_spi.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_timer.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_usart.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_wwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_misc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_cmp.h)(0x5DF1A6B2)
+I (..\User\systick.h)(0x62342AB1)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\stdio.h)(0x5F36D0B4)
+I (..\User\main.h)(0x620DFF1E)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\string.h)(0x5F36D0A4)
+I (..\Hardware\BSP\bsp.h)(0x620E05B7)
+I (..\Hardware\MULTITASK\multitask.h)(0x623AD219)
+I (..\Hardware\VECTOR\vector.h)(0x620F0B54)
+I (..\Hardware\LED\led.h)(0x620F51FC)
+I (..\Hardware\QUEUE\queue.h)(0x62411199)
+I (..\Hardware\PCMODEL\pcmodel.h)(0x6228A46B)
+I (..\Hardware\USART\usart0.h)(0x62819F35)
+I (..\Hardware\MDU_COMM\mdu_data.h)(0x6281A11C)
+I (..\Hardware\USART\uart_timer_recv.h)(0x6224945D)
+I (..\Hardware\MDU_COMM\comm_snd.h)(0x624D9B28)
+I (..\Hardware\TIMER\timer2.h)(0x62579BEA)
+I (..\Hardware\MOTOR\motor.h)(0x62579BAF)
+I (..\Hardware\ADC\adc.h)(0x6281A68F)
+I (..\Hardware\EXTI\exti.h)(0x622AA6D3)
+I (..\Hardware\TIMER\timer14.h)(0x628318AE)
+I (..\Hardware\WATERLEVEL\waterlevel.h)(0x6281BF3B)
+I (..\Hardware\TM1650\tm1650.h)(0x62348A69)
+I (..\Hardware\KEY\key.h)(0x627F6AAF)
+I (..\Hardware\MSGQUEUE\msgqueue.h)(0x625E082C)
+I (..\Hardware\GD32FLASH\gd32flash.h)(0x62551376)
+I (..\Hardware\USART\usart1.h)(0x6281A161)
+I (..\Hardware\RFID_COMM\rfid_data.h)(0x6281A18D)
+I (..\Hardware\TIMER\timer15.h)(0x624FC375)
+I (..\Hardware\VALVE\valve.h)(0x6253C9DF)
+F (..\User\systick.c)(0x625544BA)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -I ../Libraries/Include -I ../User -I ../CMSIS -I ../Hardware/DEFINE -I ../Hardware/BSP -I ../Hardware/MULTITASK -I ../Hardware/VECTOR -I ../Hardware/LED -I ../Hardware/QUEUE -I ../Hardware/PCMODEL -I ../Hardware/USART -I ../Hardware/MDU_COMM -I ../Hardware/TIMER -I ../Hardware/MOTOR -I ../Hardware/ADC -I ../Hardware/EXTI -I ../Hardware/WATERLEVEL -I ../Hardware/TM1650 -I ../Hardware/KEY -I ../Hardware/MSGQUEUE -I ../Hardware/GD32FLASH -I ../Hardware/RFID_COMM -I ../Hardware/VALVE-ID:/anzhuanglujing/GigaDevice/GD32E23x_DFP/1.0.0/Device/Include-ID:/anzhuanglujing/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DGD32E23x -DGD32E230-o ./objects/systick.o -MD)
+I (..\CMSIS\gd32e23x.h)(0x5DF1A6B2)
+I (..\CMSIS\core_cm23.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\stdint.h)(0x6275305E)
+I (..\CMSIS\cmsis_version.h)(0x5E8ED122)
+I (..\CMSIS\cmsis_compiler.h)(0x5E8306C2)
+I (..\CMSIS\cmsis_armclang.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_compat.h)(0x5EE12742)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_acle.h)(0x5F268738)
+I (..\CMSIS\system_gd32e23x.h)(0x5DF1A6B2)
+I (..\User\gd32e23x_libopt.h)(0x5E0DBAB8)
+I (..\Libraries\Include\gd32e23x_adc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_crc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dbg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dma.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_exti.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fmc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_gpio.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_syscfg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_i2c.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_pmu.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_rcu.h)(0x5E659AAC)
+I (..\Libraries\Include\gd32e23x_rtc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_spi.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_timer.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_usart.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_wwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_misc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_cmp.h)(0x5DF1A6B2)
+I (..\User\systick.h)(0x62342AB1)
+F (.\实验说明.txt)(0x624D9A59)()
+F (..\CMSIS\system_gd32e23x.c)(0x5E0DBAAF)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -I ../Libraries/Include -I ../User -I ../CMSIS -I ../Hardware/DEFINE -I ../Hardware/BSP -I ../Hardware/MULTITASK -I ../Hardware/VECTOR -I ../Hardware/LED -I ../Hardware/QUEUE -I ../Hardware/PCMODEL -I ../Hardware/USART -I ../Hardware/MDU_COMM -I ../Hardware/TIMER -I ../Hardware/MOTOR -I ../Hardware/ADC -I ../Hardware/EXTI -I ../Hardware/WATERLEVEL -I ../Hardware/TM1650 -I ../Hardware/KEY -I ../Hardware/MSGQUEUE -I ../Hardware/GD32FLASH -I ../Hardware/RFID_COMM -I ../Hardware/VALVE-ID:/anzhuanglujing/GigaDevice/GD32E23x_DFP/1.0.0/Device/Include-ID:/anzhuanglujing/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DGD32E23x -DGD32E230-o ./objects/system_gd32e23x.o -MD)
+I (..\CMSIS\gd32e23x.h)(0x5DF1A6B2)
+I (..\CMSIS\core_cm23.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\stdint.h)(0x6275305E)
+I (..\CMSIS\cmsis_version.h)(0x5E8ED122)
+I (..\CMSIS\cmsis_compiler.h)(0x5E8306C2)
+I (..\CMSIS\cmsis_armclang.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_compat.h)(0x5EE12742)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_acle.h)(0x5F268738)
+I (..\CMSIS\system_gd32e23x.h)(0x5DF1A6B2)
+I (..\User\gd32e23x_libopt.h)(0x5E0DBAB8)
+I (..\Libraries\Include\gd32e23x_adc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_crc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dbg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dma.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_exti.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fmc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_gpio.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_syscfg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_i2c.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_pmu.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_rcu.h)(0x5E659AAC)
+I (..\Libraries\Include\gd32e23x_rtc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_spi.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_timer.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_usart.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_wwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_misc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_cmp.h)(0x5DF1A6B2)
+F (..\Startup\startup_gd32e23x.s)(0x6242AB81)(--cpu=Cortex-M23 -g --pd "__MICROLIB SETA 1"-ID:\anzhuanglujing\GigaDevice\GD32E23x_DFP\1.0.0\Device\Include-ID:\anzhuanglujing\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 533"--pd "GD32E23x SETA 1"--pd "GD32E230 SETA 1"--list .\listings\startup_gd32e23x.lst--xref -o .\objects\startup_gd32e23x.o--depend .\objects\startup_gd32e23x.d)
+F (..\Libraries\Source\gd32e23x_adc.c)(0x5DF1A6B2)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -I ../Libraries/Include -I ../User -I ../CMSIS -I ../Hardware/DEFINE -I ../Hardware/BSP -I ../Hardware/MULTITASK -I ../Hardware/VECTOR -I ../Hardware/LED -I ../Hardware/QUEUE -I ../Hardware/PCMODEL -I ../Hardware/USART -I ../Hardware/MDU_COMM -I ../Hardware/TIMER -I ../Hardware/MOTOR -I ../Hardware/ADC -I ../Hardware/EXTI -I ../Hardware/WATERLEVEL -I ../Hardware/TM1650 -I ../Hardware/KEY -I ../Hardware/MSGQUEUE -I ../Hardware/GD32FLASH -I ../Hardware/RFID_COMM -I ../Hardware/VALVE-ID:/anzhuanglujing/GigaDevice/GD32E23x_DFP/1.0.0/Device/Include-ID:/anzhuanglujing/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DGD32E23x -DGD32E230-o ./objects/gd32e23x_adc.o -MD)
+I (..\Libraries\Include\gd32e23x_adc.h)(0x5DF1A6B2)
+I (..\CMSIS\gd32e23x.h)(0x5DF1A6B2)
+I (..\CMSIS\core_cm23.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\stdint.h)(0x6275305E)
+I (..\CMSIS\cmsis_version.h)(0x5E8ED122)
+I (..\CMSIS\cmsis_compiler.h)(0x5E8306C2)
+I (..\CMSIS\cmsis_armclang.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_compat.h)(0x5EE12742)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_acle.h)(0x5F268738)
+I (..\CMSIS\system_gd32e23x.h)(0x5DF1A6B2)
+I (..\User\gd32e23x_libopt.h)(0x5E0DBAB8)
+I (..\Libraries\Include\gd32e23x_crc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dbg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dma.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_exti.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fmc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_gpio.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_syscfg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_i2c.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_pmu.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_rcu.h)(0x5E659AAC)
+I (..\Libraries\Include\gd32e23x_rtc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_spi.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_timer.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_usart.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_wwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_misc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_cmp.h)(0x5DF1A6B2)
+F (..\Libraries\Source\gd32e23x_cmp.c)(0x5DF1A6B2)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -I ../Libraries/Include -I ../User -I ../CMSIS -I ../Hardware/DEFINE -I ../Hardware/BSP -I ../Hardware/MULTITASK -I ../Hardware/VECTOR -I ../Hardware/LED -I ../Hardware/QUEUE -I ../Hardware/PCMODEL -I ../Hardware/USART -I ../Hardware/MDU_COMM -I ../Hardware/TIMER -I ../Hardware/MOTOR -I ../Hardware/ADC -I ../Hardware/EXTI -I ../Hardware/WATERLEVEL -I ../Hardware/TM1650 -I ../Hardware/KEY -I ../Hardware/MSGQUEUE -I ../Hardware/GD32FLASH -I ../Hardware/RFID_COMM -I ../Hardware/VALVE-ID:/anzhuanglujing/GigaDevice/GD32E23x_DFP/1.0.0/Device/Include-ID:/anzhuanglujing/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DGD32E23x -DGD32E230-o ./objects/gd32e23x_cmp.o -MD)
+I (..\Libraries\Include\gd32e23x_cmp.h)(0x5DF1A6B2)
+I (..\CMSIS\gd32e23x.h)(0x5DF1A6B2)
+I (..\CMSIS\core_cm23.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\stdint.h)(0x6275305E)
+I (..\CMSIS\cmsis_version.h)(0x5E8ED122)
+I (..\CMSIS\cmsis_compiler.h)(0x5E8306C2)
+I (..\CMSIS\cmsis_armclang.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_compat.h)(0x5EE12742)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_acle.h)(0x5F268738)
+I (..\CMSIS\system_gd32e23x.h)(0x5DF1A6B2)
+I (..\User\gd32e23x_libopt.h)(0x5E0DBAB8)
+I (..\Libraries\Include\gd32e23x_adc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_crc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dbg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dma.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_exti.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fmc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_gpio.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_syscfg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_i2c.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_pmu.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_rcu.h)(0x5E659AAC)
+I (..\Libraries\Include\gd32e23x_rtc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_spi.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_timer.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_usart.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_wwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_misc.h)(0x5DF1A6B2)
+F (..\Libraries\Source\gd32e23x_crc.c)(0x5DF1A6B2)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -I ../Libraries/Include -I ../User -I ../CMSIS -I ../Hardware/DEFINE -I ../Hardware/BSP -I ../Hardware/MULTITASK -I ../Hardware/VECTOR -I ../Hardware/LED -I ../Hardware/QUEUE -I ../Hardware/PCMODEL -I ../Hardware/USART -I ../Hardware/MDU_COMM -I ../Hardware/TIMER -I ../Hardware/MOTOR -I ../Hardware/ADC -I ../Hardware/EXTI -I ../Hardware/WATERLEVEL -I ../Hardware/TM1650 -I ../Hardware/KEY -I ../Hardware/MSGQUEUE -I ../Hardware/GD32FLASH -I ../Hardware/RFID_COMM -I ../Hardware/VALVE-ID:/anzhuanglujing/GigaDevice/GD32E23x_DFP/1.0.0/Device/Include-ID:/anzhuanglujing/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DGD32E23x -DGD32E230-o ./objects/gd32e23x_crc.o -MD)
+I (..\Libraries\Include\gd32e23x_crc.h)(0x5DF1A6B2)
+I (..\CMSIS\gd32e23x.h)(0x5DF1A6B2)
+I (..\CMSIS\core_cm23.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\stdint.h)(0x6275305E)
+I (..\CMSIS\cmsis_version.h)(0x5E8ED122)
+I (..\CMSIS\cmsis_compiler.h)(0x5E8306C2)
+I (..\CMSIS\cmsis_armclang.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_compat.h)(0x5EE12742)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_acle.h)(0x5F268738)
+I (..\CMSIS\system_gd32e23x.h)(0x5DF1A6B2)
+I (..\User\gd32e23x_libopt.h)(0x5E0DBAB8)
+I (..\Libraries\Include\gd32e23x_adc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dbg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dma.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_exti.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fmc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_gpio.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_syscfg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_i2c.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_pmu.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_rcu.h)(0x5E659AAC)
+I (..\Libraries\Include\gd32e23x_rtc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_spi.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_timer.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_usart.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_wwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_misc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_cmp.h)(0x5DF1A6B2)
+F (..\Libraries\Source\gd32e23x_dbg.c)(0x5DF1A6B2)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -I ../Libraries/Include -I ../User -I ../CMSIS -I ../Hardware/DEFINE -I ../Hardware/BSP -I ../Hardware/MULTITASK -I ../Hardware/VECTOR -I ../Hardware/LED -I ../Hardware/QUEUE -I ../Hardware/PCMODEL -I ../Hardware/USART -I ../Hardware/MDU_COMM -I ../Hardware/TIMER -I ../Hardware/MOTOR -I ../Hardware/ADC -I ../Hardware/EXTI -I ../Hardware/WATERLEVEL -I ../Hardware/TM1650 -I ../Hardware/KEY -I ../Hardware/MSGQUEUE -I ../Hardware/GD32FLASH -I ../Hardware/RFID_COMM -I ../Hardware/VALVE-ID:/anzhuanglujing/GigaDevice/GD32E23x_DFP/1.0.0/Device/Include-ID:/anzhuanglujing/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DGD32E23x -DGD32E230-o ./objects/gd32e23x_dbg.o -MD)
+I (..\Libraries\Include\gd32e23x_dbg.h)(0x5DF1A6B2)
+I (..\CMSIS\gd32e23x.h)(0x5DF1A6B2)
+I (..\CMSIS\core_cm23.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\stdint.h)(0x6275305E)
+I (..\CMSIS\cmsis_version.h)(0x5E8ED122)
+I (..\CMSIS\cmsis_compiler.h)(0x5E8306C2)
+I (..\CMSIS\cmsis_armclang.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_compat.h)(0x5EE12742)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_acle.h)(0x5F268738)
+I (..\CMSIS\system_gd32e23x.h)(0x5DF1A6B2)
+I (..\User\gd32e23x_libopt.h)(0x5E0DBAB8)
+I (..\Libraries\Include\gd32e23x_adc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_crc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dma.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_exti.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fmc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_gpio.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_syscfg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_i2c.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_pmu.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_rcu.h)(0x5E659AAC)
+I (..\Libraries\Include\gd32e23x_rtc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_spi.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_timer.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_usart.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_wwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_misc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_cmp.h)(0x5DF1A6B2)
+F (..\Libraries\Source\gd32e23x_dma.c)(0x5DF1A6B2)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -I ../Libraries/Include -I ../User -I ../CMSIS -I ../Hardware/DEFINE -I ../Hardware/BSP -I ../Hardware/MULTITASK -I ../Hardware/VECTOR -I ../Hardware/LED -I ../Hardware/QUEUE -I ../Hardware/PCMODEL -I ../Hardware/USART -I ../Hardware/MDU_COMM -I ../Hardware/TIMER -I ../Hardware/MOTOR -I ../Hardware/ADC -I ../Hardware/EXTI -I ../Hardware/WATERLEVEL -I ../Hardware/TM1650 -I ../Hardware/KEY -I ../Hardware/MSGQUEUE -I ../Hardware/GD32FLASH -I ../Hardware/RFID_COMM -I ../Hardware/VALVE-ID:/anzhuanglujing/GigaDevice/GD32E23x_DFP/1.0.0/Device/Include-ID:/anzhuanglujing/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DGD32E23x -DGD32E230-o ./objects/gd32e23x_dma.o -MD)
+I (..\Libraries\Include\gd32e23x_dma.h)(0x5DF1A6B2)
+I (..\CMSIS\gd32e23x.h)(0x5DF1A6B2)
+I (..\CMSIS\core_cm23.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\stdint.h)(0x6275305E)
+I (..\CMSIS\cmsis_version.h)(0x5E8ED122)
+I (..\CMSIS\cmsis_compiler.h)(0x5E8306C2)
+I (..\CMSIS\cmsis_armclang.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_compat.h)(0x5EE12742)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_acle.h)(0x5F268738)
+I (..\CMSIS\system_gd32e23x.h)(0x5DF1A6B2)
+I (..\User\gd32e23x_libopt.h)(0x5E0DBAB8)
+I (..\Libraries\Include\gd32e23x_adc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_crc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dbg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_exti.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fmc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_gpio.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_syscfg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_i2c.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_pmu.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_rcu.h)(0x5E659AAC)
+I (..\Libraries\Include\gd32e23x_rtc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_spi.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_timer.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_usart.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_wwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_misc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_cmp.h)(0x5DF1A6B2)
+F (..\Libraries\Source\gd32e23x_exti.c)(0x5DF1A6B2)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -I ../Libraries/Include -I ../User -I ../CMSIS -I ../Hardware/DEFINE -I ../Hardware/BSP -I ../Hardware/MULTITASK -I ../Hardware/VECTOR -I ../Hardware/LED -I ../Hardware/QUEUE -I ../Hardware/PCMODEL -I ../Hardware/USART -I ../Hardware/MDU_COMM -I ../Hardware/TIMER -I ../Hardware/MOTOR -I ../Hardware/ADC -I ../Hardware/EXTI -I ../Hardware/WATERLEVEL -I ../Hardware/TM1650 -I ../Hardware/KEY -I ../Hardware/MSGQUEUE -I ../Hardware/GD32FLASH -I ../Hardware/RFID_COMM -I ../Hardware/VALVE-ID:/anzhuanglujing/GigaDevice/GD32E23x_DFP/1.0.0/Device/Include-ID:/anzhuanglujing/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DGD32E23x -DGD32E230-o ./objects/gd32e23x_exti.o -MD)
+I (..\Libraries\Include\gd32e23x_exti.h)(0x5DF1A6B2)
+I (..\CMSIS\gd32e23x.h)(0x5DF1A6B2)
+I (..\CMSIS\core_cm23.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\stdint.h)(0x6275305E)
+I (..\CMSIS\cmsis_version.h)(0x5E8ED122)
+I (..\CMSIS\cmsis_compiler.h)(0x5E8306C2)
+I (..\CMSIS\cmsis_armclang.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_compat.h)(0x5EE12742)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_acle.h)(0x5F268738)
+I (..\CMSIS\system_gd32e23x.h)(0x5DF1A6B2)
+I (..\User\gd32e23x_libopt.h)(0x5E0DBAB8)
+I (..\Libraries\Include\gd32e23x_adc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_crc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dbg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dma.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fmc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_gpio.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_syscfg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_i2c.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_pmu.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_rcu.h)(0x5E659AAC)
+I (..\Libraries\Include\gd32e23x_rtc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_spi.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_timer.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_usart.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_wwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_misc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_cmp.h)(0x5DF1A6B2)
+F (..\Libraries\Source\gd32e23x_fmc.c)(0x5DF1A6B2)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -I ../Libraries/Include -I ../User -I ../CMSIS -I ../Hardware/DEFINE -I ../Hardware/BSP -I ../Hardware/MULTITASK -I ../Hardware/VECTOR -I ../Hardware/LED -I ../Hardware/QUEUE -I ../Hardware/PCMODEL -I ../Hardware/USART -I ../Hardware/MDU_COMM -I ../Hardware/TIMER -I ../Hardware/MOTOR -I ../Hardware/ADC -I ../Hardware/EXTI -I ../Hardware/WATERLEVEL -I ../Hardware/TM1650 -I ../Hardware/KEY -I ../Hardware/MSGQUEUE -I ../Hardware/GD32FLASH -I ../Hardware/RFID_COMM -I ../Hardware/VALVE-ID:/anzhuanglujing/GigaDevice/GD32E23x_DFP/1.0.0/Device/Include-ID:/anzhuanglujing/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DGD32E23x -DGD32E230-o ./objects/gd32e23x_fmc.o -MD)
+I (..\Libraries\Include\gd32e23x_fmc.h)(0x5DF1A6B2)
+I (..\CMSIS\gd32e23x.h)(0x5DF1A6B2)
+I (..\CMSIS\core_cm23.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\stdint.h)(0x6275305E)
+I (..\CMSIS\cmsis_version.h)(0x5E8ED122)
+I (..\CMSIS\cmsis_compiler.h)(0x5E8306C2)
+I (..\CMSIS\cmsis_armclang.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_compat.h)(0x5EE12742)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_acle.h)(0x5F268738)
+I (..\CMSIS\system_gd32e23x.h)(0x5DF1A6B2)
+I (..\User\gd32e23x_libopt.h)(0x5E0DBAB8)
+I (..\Libraries\Include\gd32e23x_adc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_crc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dbg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dma.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_exti.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_gpio.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_syscfg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_i2c.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_pmu.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_rcu.h)(0x5E659AAC)
+I (..\Libraries\Include\gd32e23x_rtc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_spi.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_timer.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_usart.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_wwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_misc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_cmp.h)(0x5DF1A6B2)
+F (..\Libraries\Source\gd32e23x_fwdgt.c)(0x5DF1A6B2)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -I ../Libraries/Include -I ../User -I ../CMSIS -I ../Hardware/DEFINE -I ../Hardware/BSP -I ../Hardware/MULTITASK -I ../Hardware/VECTOR -I ../Hardware/LED -I ../Hardware/QUEUE -I ../Hardware/PCMODEL -I ../Hardware/USART -I ../Hardware/MDU_COMM -I ../Hardware/TIMER -I ../Hardware/MOTOR -I ../Hardware/ADC -I ../Hardware/EXTI -I ../Hardware/WATERLEVEL -I ../Hardware/TM1650 -I ../Hardware/KEY -I ../Hardware/MSGQUEUE -I ../Hardware/GD32FLASH -I ../Hardware/RFID_COMM -I ../Hardware/VALVE-ID:/anzhuanglujing/GigaDevice/GD32E23x_DFP/1.0.0/Device/Include-ID:/anzhuanglujing/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DGD32E23x -DGD32E230-o ./objects/gd32e23x_fwdgt.o -MD)
+I (..\Libraries\Include\gd32e23x_fwdgt.h)(0x5DF1A6B2)
+I (..\CMSIS\gd32e23x.h)(0x5DF1A6B2)
+I (..\CMSIS\core_cm23.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\stdint.h)(0x6275305E)
+I (..\CMSIS\cmsis_version.h)(0x5E8ED122)
+I (..\CMSIS\cmsis_compiler.h)(0x5E8306C2)
+I (..\CMSIS\cmsis_armclang.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_compat.h)(0x5EE12742)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_acle.h)(0x5F268738)
+I (..\CMSIS\system_gd32e23x.h)(0x5DF1A6B2)
+I (..\User\gd32e23x_libopt.h)(0x5E0DBAB8)
+I (..\Libraries\Include\gd32e23x_adc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_crc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dbg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dma.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_exti.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fmc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_gpio.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_syscfg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_i2c.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_pmu.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_rcu.h)(0x5E659AAC)
+I (..\Libraries\Include\gd32e23x_rtc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_spi.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_timer.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_usart.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_wwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_misc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_cmp.h)(0x5DF1A6B2)
+F (..\Libraries\Source\gd32e23x_gpio.c)(0x6253C2C6)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -I ../Libraries/Include -I ../User -I ../CMSIS -I ../Hardware/DEFINE -I ../Hardware/BSP -I ../Hardware/MULTITASK -I ../Hardware/VECTOR -I ../Hardware/LED -I ../Hardware/QUEUE -I ../Hardware/PCMODEL -I ../Hardware/USART -I ../Hardware/MDU_COMM -I ../Hardware/TIMER -I ../Hardware/MOTOR -I ../Hardware/ADC -I ../Hardware/EXTI -I ../Hardware/WATERLEVEL -I ../Hardware/TM1650 -I ../Hardware/KEY -I ../Hardware/MSGQUEUE -I ../Hardware/GD32FLASH -I ../Hardware/RFID_COMM -I ../Hardware/VALVE-ID:/anzhuanglujing/GigaDevice/GD32E23x_DFP/1.0.0/Device/Include-ID:/anzhuanglujing/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DGD32E23x -DGD32E230-o ./objects/gd32e23x_gpio.o -MD)
+I (..\Libraries\Include\gd32e23x_gpio.h)(0x5DF1A6B2)
+I (..\CMSIS\gd32e23x.h)(0x5DF1A6B2)
+I (..\CMSIS\core_cm23.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\stdint.h)(0x6275305E)
+I (..\CMSIS\cmsis_version.h)(0x5E8ED122)
+I (..\CMSIS\cmsis_compiler.h)(0x5E8306C2)
+I (..\CMSIS\cmsis_armclang.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_compat.h)(0x5EE12742)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_acle.h)(0x5F268738)
+I (..\CMSIS\system_gd32e23x.h)(0x5DF1A6B2)
+I (..\User\gd32e23x_libopt.h)(0x5E0DBAB8)
+I (..\Libraries\Include\gd32e23x_adc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_crc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dbg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dma.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_exti.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fmc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_syscfg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_i2c.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_pmu.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_rcu.h)(0x5E659AAC)
+I (..\Libraries\Include\gd32e23x_rtc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_spi.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_timer.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_usart.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_wwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_misc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_cmp.h)(0x5DF1A6B2)
+F (..\Libraries\Source\gd32e23x_i2c.c)(0x5DF1A6B2)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -I ../Libraries/Include -I ../User -I ../CMSIS -I ../Hardware/DEFINE -I ../Hardware/BSP -I ../Hardware/MULTITASK -I ../Hardware/VECTOR -I ../Hardware/LED -I ../Hardware/QUEUE -I ../Hardware/PCMODEL -I ../Hardware/USART -I ../Hardware/MDU_COMM -I ../Hardware/TIMER -I ../Hardware/MOTOR -I ../Hardware/ADC -I ../Hardware/EXTI -I ../Hardware/WATERLEVEL -I ../Hardware/TM1650 -I ../Hardware/KEY -I ../Hardware/MSGQUEUE -I ../Hardware/GD32FLASH -I ../Hardware/RFID_COMM -I ../Hardware/VALVE-ID:/anzhuanglujing/GigaDevice/GD32E23x_DFP/1.0.0/Device/Include-ID:/anzhuanglujing/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DGD32E23x -DGD32E230-o ./objects/gd32e23x_i2c.o -MD)
+I (..\Libraries\Include\gd32e23x_i2c.h)(0x5DF1A6B2)
+I (..\CMSIS\gd32e23x.h)(0x5DF1A6B2)
+I (..\CMSIS\core_cm23.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\stdint.h)(0x6275305E)
+I (..\CMSIS\cmsis_version.h)(0x5E8ED122)
+I (..\CMSIS\cmsis_compiler.h)(0x5E8306C2)
+I (..\CMSIS\cmsis_armclang.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_compat.h)(0x5EE12742)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_acle.h)(0x5F268738)
+I (..\CMSIS\system_gd32e23x.h)(0x5DF1A6B2)
+I (..\User\gd32e23x_libopt.h)(0x5E0DBAB8)
+I (..\Libraries\Include\gd32e23x_adc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_crc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dbg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dma.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_exti.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fmc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_gpio.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_syscfg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_pmu.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_rcu.h)(0x5E659AAC)
+I (..\Libraries\Include\gd32e23x_rtc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_spi.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_timer.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_usart.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_wwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_misc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_cmp.h)(0x5DF1A6B2)
+F (..\Libraries\Source\gd32e23x_misc.c)(0x5DF1A6B2)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -I ../Libraries/Include -I ../User -I ../CMSIS -I ../Hardware/DEFINE -I ../Hardware/BSP -I ../Hardware/MULTITASK -I ../Hardware/VECTOR -I ../Hardware/LED -I ../Hardware/QUEUE -I ../Hardware/PCMODEL -I ../Hardware/USART -I ../Hardware/MDU_COMM -I ../Hardware/TIMER -I ../Hardware/MOTOR -I ../Hardware/ADC -I ../Hardware/EXTI -I ../Hardware/WATERLEVEL -I ../Hardware/TM1650 -I ../Hardware/KEY -I ../Hardware/MSGQUEUE -I ../Hardware/GD32FLASH -I ../Hardware/RFID_COMM -I ../Hardware/VALVE-ID:/anzhuanglujing/GigaDevice/GD32E23x_DFP/1.0.0/Device/Include-ID:/anzhuanglujing/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DGD32E23x -DGD32E230-o ./objects/gd32e23x_misc.o -MD)
+I (..\Libraries\Include\gd32e23x_misc.h)(0x5DF1A6B2)
+I (..\CMSIS\gd32e23x.h)(0x5DF1A6B2)
+I (..\CMSIS\core_cm23.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\stdint.h)(0x6275305E)
+I (..\CMSIS\cmsis_version.h)(0x5E8ED122)
+I (..\CMSIS\cmsis_compiler.h)(0x5E8306C2)
+I (..\CMSIS\cmsis_armclang.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_compat.h)(0x5EE12742)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_acle.h)(0x5F268738)
+I (..\CMSIS\system_gd32e23x.h)(0x5DF1A6B2)
+I (..\User\gd32e23x_libopt.h)(0x5E0DBAB8)
+I (..\Libraries\Include\gd32e23x_adc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_crc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dbg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dma.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_exti.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fmc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_gpio.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_syscfg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_i2c.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_pmu.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_rcu.h)(0x5E659AAC)
+I (..\Libraries\Include\gd32e23x_rtc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_spi.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_timer.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_usart.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_wwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_cmp.h)(0x5DF1A6B2)
+F (..\Libraries\Source\gd32e23x_pmu.c)(0x5DF1A6B2)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -I ../Libraries/Include -I ../User -I ../CMSIS -I ../Hardware/DEFINE -I ../Hardware/BSP -I ../Hardware/MULTITASK -I ../Hardware/VECTOR -I ../Hardware/LED -I ../Hardware/QUEUE -I ../Hardware/PCMODEL -I ../Hardware/USART -I ../Hardware/MDU_COMM -I ../Hardware/TIMER -I ../Hardware/MOTOR -I ../Hardware/ADC -I ../Hardware/EXTI -I ../Hardware/WATERLEVEL -I ../Hardware/TM1650 -I ../Hardware/KEY -I ../Hardware/MSGQUEUE -I ../Hardware/GD32FLASH -I ../Hardware/RFID_COMM -I ../Hardware/VALVE-ID:/anzhuanglujing/GigaDevice/GD32E23x_DFP/1.0.0/Device/Include-ID:/anzhuanglujing/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DGD32E23x -DGD32E230-o ./objects/gd32e23x_pmu.o -MD)
+I (..\Libraries\Include\gd32e23x_pmu.h)(0x5DF1A6B2)
+I (..\CMSIS\gd32e23x.h)(0x5DF1A6B2)
+I (..\CMSIS\core_cm23.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\stdint.h)(0x6275305E)
+I (..\CMSIS\cmsis_version.h)(0x5E8ED122)
+I (..\CMSIS\cmsis_compiler.h)(0x5E8306C2)
+I (..\CMSIS\cmsis_armclang.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_compat.h)(0x5EE12742)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_acle.h)(0x5F268738)
+I (..\CMSIS\system_gd32e23x.h)(0x5DF1A6B2)
+I (..\User\gd32e23x_libopt.h)(0x5E0DBAB8)
+I (..\Libraries\Include\gd32e23x_adc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_crc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dbg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dma.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_exti.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fmc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_gpio.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_syscfg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_i2c.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_rcu.h)(0x5E659AAC)
+I (..\Libraries\Include\gd32e23x_rtc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_spi.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_timer.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_usart.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_wwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_misc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_cmp.h)(0x5DF1A6B2)
+F (..\Libraries\Source\gd32e23x_rcu.c)(0x5E659AAC)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -I ../Libraries/Include -I ../User -I ../CMSIS -I ../Hardware/DEFINE -I ../Hardware/BSP -I ../Hardware/MULTITASK -I ../Hardware/VECTOR -I ../Hardware/LED -I ../Hardware/QUEUE -I ../Hardware/PCMODEL -I ../Hardware/USART -I ../Hardware/MDU_COMM -I ../Hardware/TIMER -I ../Hardware/MOTOR -I ../Hardware/ADC -I ../Hardware/EXTI -I ../Hardware/WATERLEVEL -I ../Hardware/TM1650 -I ../Hardware/KEY -I ../Hardware/MSGQUEUE -I ../Hardware/GD32FLASH -I ../Hardware/RFID_COMM -I ../Hardware/VALVE-ID:/anzhuanglujing/GigaDevice/GD32E23x_DFP/1.0.0/Device/Include-ID:/anzhuanglujing/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DGD32E23x -DGD32E230-o ./objects/gd32e23x_rcu.o -MD)
+I (..\Libraries\Include\gd32e23x_rcu.h)(0x5E659AAC)
+I (..\CMSIS\gd32e23x.h)(0x5DF1A6B2)
+I (..\CMSIS\core_cm23.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\stdint.h)(0x6275305E)
+I (..\CMSIS\cmsis_version.h)(0x5E8ED122)
+I (..\CMSIS\cmsis_compiler.h)(0x5E8306C2)
+I (..\CMSIS\cmsis_armclang.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_compat.h)(0x5EE12742)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_acle.h)(0x5F268738)
+I (..\CMSIS\system_gd32e23x.h)(0x5DF1A6B2)
+I (..\User\gd32e23x_libopt.h)(0x5E0DBAB8)
+I (..\Libraries\Include\gd32e23x_adc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_crc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dbg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dma.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_exti.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fmc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_gpio.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_syscfg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_i2c.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_pmu.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_rtc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_spi.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_timer.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_usart.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_wwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_misc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_cmp.h)(0x5DF1A6B2)
+F (..\Libraries\Source\gd32e23x_rtc.c)(0x5DF1A6B2)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -I ../Libraries/Include -I ../User -I ../CMSIS -I ../Hardware/DEFINE -I ../Hardware/BSP -I ../Hardware/MULTITASK -I ../Hardware/VECTOR -I ../Hardware/LED -I ../Hardware/QUEUE -I ../Hardware/PCMODEL -I ../Hardware/USART -I ../Hardware/MDU_COMM -I ../Hardware/TIMER -I ../Hardware/MOTOR -I ../Hardware/ADC -I ../Hardware/EXTI -I ../Hardware/WATERLEVEL -I ../Hardware/TM1650 -I ../Hardware/KEY -I ../Hardware/MSGQUEUE -I ../Hardware/GD32FLASH -I ../Hardware/RFID_COMM -I ../Hardware/VALVE-ID:/anzhuanglujing/GigaDevice/GD32E23x_DFP/1.0.0/Device/Include-ID:/anzhuanglujing/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DGD32E23x -DGD32E230-o ./objects/gd32e23x_rtc.o -MD)
+I (..\Libraries\Include\gd32e23x_rtc.h)(0x5DF1A6B2)
+I (..\CMSIS\gd32e23x.h)(0x5DF1A6B2)
+I (..\CMSIS\core_cm23.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\stdint.h)(0x6275305E)
+I (..\CMSIS\cmsis_version.h)(0x5E8ED122)
+I (..\CMSIS\cmsis_compiler.h)(0x5E8306C2)
+I (..\CMSIS\cmsis_armclang.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_compat.h)(0x5EE12742)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_acle.h)(0x5F268738)
+I (..\CMSIS\system_gd32e23x.h)(0x5DF1A6B2)
+I (..\User\gd32e23x_libopt.h)(0x5E0DBAB8)
+I (..\Libraries\Include\gd32e23x_adc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_crc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dbg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dma.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_exti.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fmc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_gpio.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_syscfg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_i2c.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_pmu.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_rcu.h)(0x5E659AAC)
+I (..\Libraries\Include\gd32e23x_spi.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_timer.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_usart.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_wwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_misc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_cmp.h)(0x5DF1A6B2)
+F (..\Libraries\Source\gd32e23x_spi.c)(0x5DF1A6B2)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -I ../Libraries/Include -I ../User -I ../CMSIS -I ../Hardware/DEFINE -I ../Hardware/BSP -I ../Hardware/MULTITASK -I ../Hardware/VECTOR -I ../Hardware/LED -I ../Hardware/QUEUE -I ../Hardware/PCMODEL -I ../Hardware/USART -I ../Hardware/MDU_COMM -I ../Hardware/TIMER -I ../Hardware/MOTOR -I ../Hardware/ADC -I ../Hardware/EXTI -I ../Hardware/WATERLEVEL -I ../Hardware/TM1650 -I ../Hardware/KEY -I ../Hardware/MSGQUEUE -I ../Hardware/GD32FLASH -I ../Hardware/RFID_COMM -I ../Hardware/VALVE-ID:/anzhuanglujing/GigaDevice/GD32E23x_DFP/1.0.0/Device/Include-ID:/anzhuanglujing/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DGD32E23x -DGD32E230-o ./objects/gd32e23x_spi.o -MD)
+I (..\Libraries\Include\gd32e23x_spi.h)(0x5DF1A6B2)
+I (..\CMSIS\gd32e23x.h)(0x5DF1A6B2)
+I (..\CMSIS\core_cm23.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\stdint.h)(0x6275305E)
+I (..\CMSIS\cmsis_version.h)(0x5E8ED122)
+I (..\CMSIS\cmsis_compiler.h)(0x5E8306C2)
+I (..\CMSIS\cmsis_armclang.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_compat.h)(0x5EE12742)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_acle.h)(0x5F268738)
+I (..\CMSIS\system_gd32e23x.h)(0x5DF1A6B2)
+I (..\User\gd32e23x_libopt.h)(0x5E0DBAB8)
+I (..\Libraries\Include\gd32e23x_adc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_crc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dbg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dma.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_exti.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fmc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_gpio.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_syscfg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_i2c.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_pmu.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_rcu.h)(0x5E659AAC)
+I (..\Libraries\Include\gd32e23x_rtc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_timer.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_usart.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_wwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_misc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_cmp.h)(0x5DF1A6B2)
+F (..\Libraries\Source\gd32e23x_syscfg.c)(0x5DF1A6B2)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -I ../Libraries/Include -I ../User -I ../CMSIS -I ../Hardware/DEFINE -I ../Hardware/BSP -I ../Hardware/MULTITASK -I ../Hardware/VECTOR -I ../Hardware/LED -I ../Hardware/QUEUE -I ../Hardware/PCMODEL -I ../Hardware/USART -I ../Hardware/MDU_COMM -I ../Hardware/TIMER -I ../Hardware/MOTOR -I ../Hardware/ADC -I ../Hardware/EXTI -I ../Hardware/WATERLEVEL -I ../Hardware/TM1650 -I ../Hardware/KEY -I ../Hardware/MSGQUEUE -I ../Hardware/GD32FLASH -I ../Hardware/RFID_COMM -I ../Hardware/VALVE-ID:/anzhuanglujing/GigaDevice/GD32E23x_DFP/1.0.0/Device/Include-ID:/anzhuanglujing/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DGD32E23x -DGD32E230-o ./objects/gd32e23x_syscfg.o -MD)
+I (..\Libraries\Include\gd32e23x_syscfg.h)(0x5DF1A6B2)
+I (..\CMSIS\gd32e23x.h)(0x5DF1A6B2)
+I (..\CMSIS\core_cm23.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\stdint.h)(0x6275305E)
+I (..\CMSIS\cmsis_version.h)(0x5E8ED122)
+I (..\CMSIS\cmsis_compiler.h)(0x5E8306C2)
+I (..\CMSIS\cmsis_armclang.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_compat.h)(0x5EE12742)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_acle.h)(0x5F268738)
+I (..\CMSIS\system_gd32e23x.h)(0x5DF1A6B2)
+I (..\User\gd32e23x_libopt.h)(0x5E0DBAB8)
+I (..\Libraries\Include\gd32e23x_adc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_crc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dbg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dma.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_exti.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fmc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_gpio.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_i2c.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_pmu.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_rcu.h)(0x5E659AAC)
+I (..\Libraries\Include\gd32e23x_rtc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_spi.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_timer.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_usart.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_wwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_misc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_cmp.h)(0x5DF1A6B2)
+F (..\Libraries\Source\gd32e23x_timer.c)(0x622ADBA7)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -I ../Libraries/Include -I ../User -I ../CMSIS -I ../Hardware/DEFINE -I ../Hardware/BSP -I ../Hardware/MULTITASK -I ../Hardware/VECTOR -I ../Hardware/LED -I ../Hardware/QUEUE -I ../Hardware/PCMODEL -I ../Hardware/USART -I ../Hardware/MDU_COMM -I ../Hardware/TIMER -I ../Hardware/MOTOR -I ../Hardware/ADC -I ../Hardware/EXTI -I ../Hardware/WATERLEVEL -I ../Hardware/TM1650 -I ../Hardware/KEY -I ../Hardware/MSGQUEUE -I ../Hardware/GD32FLASH -I ../Hardware/RFID_COMM -I ../Hardware/VALVE-ID:/anzhuanglujing/GigaDevice/GD32E23x_DFP/1.0.0/Device/Include-ID:/anzhuanglujing/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DGD32E23x -DGD32E230-o ./objects/gd32e23x_timer.o -MD)
+I (..\Libraries\Include\gd32e23x_timer.h)(0x5DF1A6B2)
+I (..\CMSIS\gd32e23x.h)(0x5DF1A6B2)
+I (..\CMSIS\core_cm23.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\stdint.h)(0x6275305E)
+I (..\CMSIS\cmsis_version.h)(0x5E8ED122)
+I (..\CMSIS\cmsis_compiler.h)(0x5E8306C2)
+I (..\CMSIS\cmsis_armclang.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_compat.h)(0x5EE12742)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_acle.h)(0x5F268738)
+I (..\CMSIS\system_gd32e23x.h)(0x5DF1A6B2)
+I (..\User\gd32e23x_libopt.h)(0x5E0DBAB8)
+I (..\Libraries\Include\gd32e23x_adc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_crc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dbg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dma.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_exti.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fmc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_gpio.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_syscfg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_i2c.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_pmu.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_rcu.h)(0x5E659AAC)
+I (..\Libraries\Include\gd32e23x_rtc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_spi.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_usart.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_wwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_misc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_cmp.h)(0x5DF1A6B2)
+F (..\Libraries\Source\gd32e23x_usart.c)(0x61C51C91)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -I ../Libraries/Include -I ../User -I ../CMSIS -I ../Hardware/DEFINE -I ../Hardware/BSP -I ../Hardware/MULTITASK -I ../Hardware/VECTOR -I ../Hardware/LED -I ../Hardware/QUEUE -I ../Hardware/PCMODEL -I ../Hardware/USART -I ../Hardware/MDU_COMM -I ../Hardware/TIMER -I ../Hardware/MOTOR -I ../Hardware/ADC -I ../Hardware/EXTI -I ../Hardware/WATERLEVEL -I ../Hardware/TM1650 -I ../Hardware/KEY -I ../Hardware/MSGQUEUE -I ../Hardware/GD32FLASH -I ../Hardware/RFID_COMM -I ../Hardware/VALVE-ID:/anzhuanglujing/GigaDevice/GD32E23x_DFP/1.0.0/Device/Include-ID:/anzhuanglujing/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DGD32E23x -DGD32E230-o ./objects/gd32e23x_usart.o -MD)
+I (..\Libraries\Include\gd32e23x_usart.h)(0x5DF1A6B2)
+I (..\CMSIS\gd32e23x.h)(0x5DF1A6B2)
+I (..\CMSIS\core_cm23.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\stdint.h)(0x6275305E)
+I (..\CMSIS\cmsis_version.h)(0x5E8ED122)
+I (..\CMSIS\cmsis_compiler.h)(0x5E8306C2)
+I (..\CMSIS\cmsis_armclang.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_compat.h)(0x5EE12742)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_acle.h)(0x5F268738)
+I (..\CMSIS\system_gd32e23x.h)(0x5DF1A6B2)
+I (..\User\gd32e23x_libopt.h)(0x5E0DBAB8)
+I (..\Libraries\Include\gd32e23x_adc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_crc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dbg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dma.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_exti.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fmc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_gpio.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_syscfg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_i2c.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_pmu.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_rcu.h)(0x5E659AAC)
+I (..\Libraries\Include\gd32e23x_rtc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_spi.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_timer.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_wwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_misc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_cmp.h)(0x5DF1A6B2)
+F (..\Libraries\Source\gd32e23x_wwdgt.c)(0x5DF1A6B2)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -I ../Libraries/Include -I ../User -I ../CMSIS -I ../Hardware/DEFINE -I ../Hardware/BSP -I ../Hardware/MULTITASK -I ../Hardware/VECTOR -I ../Hardware/LED -I ../Hardware/QUEUE -I ../Hardware/PCMODEL -I ../Hardware/USART -I ../Hardware/MDU_COMM -I ../Hardware/TIMER -I ../Hardware/MOTOR -I ../Hardware/ADC -I ../Hardware/EXTI -I ../Hardware/WATERLEVEL -I ../Hardware/TM1650 -I ../Hardware/KEY -I ../Hardware/MSGQUEUE -I ../Hardware/GD32FLASH -I ../Hardware/RFID_COMM -I ../Hardware/VALVE-ID:/anzhuanglujing/GigaDevice/GD32E23x_DFP/1.0.0/Device/Include-ID:/anzhuanglujing/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DGD32E23x -DGD32E230-o ./objects/gd32e23x_wwdgt.o -MD)
+I (..\Libraries\Include\gd32e23x_wwdgt.h)(0x5DF1A6B2)
+I (..\CMSIS\gd32e23x.h)(0x5DF1A6B2)
+I (..\CMSIS\core_cm23.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\stdint.h)(0x6275305E)
+I (..\CMSIS\cmsis_version.h)(0x5E8ED122)
+I (..\CMSIS\cmsis_compiler.h)(0x5E8306C2)
+I (..\CMSIS\cmsis_armclang.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_compat.h)(0x5EE12742)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_acle.h)(0x5F268738)
+I (..\CMSIS\system_gd32e23x.h)(0x5DF1A6B2)
+I (..\User\gd32e23x_libopt.h)(0x5E0DBAB8)
+I (..\Libraries\Include\gd32e23x_adc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_crc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dbg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dma.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_exti.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fmc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_gpio.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_syscfg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_i2c.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_pmu.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_rcu.h)(0x5E659AAC)
+I (..\Libraries\Include\gd32e23x_rtc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_spi.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_timer.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_usart.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_misc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_cmp.h)(0x5DF1A6B2)
+F (..\Hardware\DEFINE\define.c)(0x6281F72D)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -I ../Libraries/Include -I ../User -I ../CMSIS -I ../Hardware/DEFINE -I ../Hardware/BSP -I ../Hardware/MULTITASK -I ../Hardware/VECTOR -I ../Hardware/LED -I ../Hardware/QUEUE -I ../Hardware/PCMODEL -I ../Hardware/USART -I ../Hardware/MDU_COMM -I ../Hardware/TIMER -I ../Hardware/MOTOR -I ../Hardware/ADC -I ../Hardware/EXTI -I ../Hardware/WATERLEVEL -I ../Hardware/TM1650 -I ../Hardware/KEY -I ../Hardware/MSGQUEUE -I ../Hardware/GD32FLASH -I ../Hardware/RFID_COMM -I ../Hardware/VALVE-ID:/anzhuanglujing/GigaDevice/GD32E23x_DFP/1.0.0/Device/Include-ID:/anzhuanglujing/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DGD32E23x -DGD32E230-o ./objects/define.o -MD)
+I (..\Hardware\DEFINE\define.h)(0x6281A0D5)
+I (..\CMSIS\gd32e23x.h)(0x5DF1A6B2)
+I (..\CMSIS\core_cm23.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\stdint.h)(0x6275305E)
+I (..\CMSIS\cmsis_version.h)(0x5E8ED122)
+I (..\CMSIS\cmsis_compiler.h)(0x5E8306C2)
+I (..\CMSIS\cmsis_armclang.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_compat.h)(0x5EE12742)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_acle.h)(0x5F268738)
+I (..\CMSIS\system_gd32e23x.h)(0x5DF1A6B2)
+I (..\User\gd32e23x_libopt.h)(0x5E0DBAB8)
+I (..\Libraries\Include\gd32e23x_adc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_crc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dbg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dma.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_exti.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fmc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_gpio.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_syscfg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_i2c.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_pmu.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_rcu.h)(0x5E659AAC)
+I (..\Libraries\Include\gd32e23x_rtc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_spi.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_timer.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_usart.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_wwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_misc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_cmp.h)(0x5DF1A6B2)
+I (..\User\systick.h)(0x62342AB1)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\stdio.h)(0x5F36D0B4)
+I (..\User\main.h)(0x620DFF1E)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\string.h)(0x5F36D0A4)
+I (..\Hardware\BSP\bsp.h)(0x620E05B7)
+I (..\Hardware\MULTITASK\multitask.h)(0x623AD219)
+I (..\Hardware\VECTOR\vector.h)(0x620F0B54)
+I (..\Hardware\LED\led.h)(0x620F51FC)
+I (..\Hardware\QUEUE\queue.h)(0x62411199)
+I (..\Hardware\PCMODEL\pcmodel.h)(0x6228A46B)
+I (..\Hardware\USART\usart0.h)(0x62819F35)
+I (..\Hardware\MDU_COMM\mdu_data.h)(0x6281A11C)
+I (..\Hardware\USART\uart_timer_recv.h)(0x6224945D)
+I (..\Hardware\MDU_COMM\comm_snd.h)(0x624D9B28)
+I (..\Hardware\TIMER\timer2.h)(0x62579BEA)
+I (..\Hardware\MOTOR\motor.h)(0x62579BAF)
+I (..\Hardware\ADC\adc.h)(0x6281A68F)
+I (..\Hardware\EXTI\exti.h)(0x622AA6D3)
+I (..\Hardware\TIMER\timer14.h)(0x628318AE)
+I (..\Hardware\WATERLEVEL\waterlevel.h)(0x6281BF3B)
+I (..\Hardware\TM1650\tm1650.h)(0x62348A69)
+I (..\Hardware\KEY\key.h)(0x627F6AAF)
+I (..\Hardware\MSGQUEUE\msgqueue.h)(0x625E082C)
+I (..\Hardware\GD32FLASH\gd32flash.h)(0x62551376)
+I (..\Hardware\USART\usart1.h)(0x6281A161)
+I (..\Hardware\RFID_COMM\rfid_data.h)(0x6281A18D)
+I (..\Hardware\TIMER\timer15.h)(0x624FC375)
+I (..\Hardware\VALVE\valve.h)(0x6253C9DF)
+F (..\Hardware\BSP\bsp.c)(0x6281EDC5)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -I ../Libraries/Include -I ../User -I ../CMSIS -I ../Hardware/DEFINE -I ../Hardware/BSP -I ../Hardware/MULTITASK -I ../Hardware/VECTOR -I ../Hardware/LED -I ../Hardware/QUEUE -I ../Hardware/PCMODEL -I ../Hardware/USART -I ../Hardware/MDU_COMM -I ../Hardware/TIMER -I ../Hardware/MOTOR -I ../Hardware/ADC -I ../Hardware/EXTI -I ../Hardware/WATERLEVEL -I ../Hardware/TM1650 -I ../Hardware/KEY -I ../Hardware/MSGQUEUE -I ../Hardware/GD32FLASH -I ../Hardware/RFID_COMM -I ../Hardware/VALVE-ID:/anzhuanglujing/GigaDevice/GD32E23x_DFP/1.0.0/Device/Include-ID:/anzhuanglujing/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DGD32E23x -DGD32E230-o ./objects/bsp.o -MD)
+I (..\Hardware\DEFINE\define.h)(0x6281A0D5)
+I (..\CMSIS\gd32e23x.h)(0x5DF1A6B2)
+I (..\CMSIS\core_cm23.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\stdint.h)(0x6275305E)
+I (..\CMSIS\cmsis_version.h)(0x5E8ED122)
+I (..\CMSIS\cmsis_compiler.h)(0x5E8306C2)
+I (..\CMSIS\cmsis_armclang.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_compat.h)(0x5EE12742)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_acle.h)(0x5F268738)
+I (..\CMSIS\system_gd32e23x.h)(0x5DF1A6B2)
+I (..\User\gd32e23x_libopt.h)(0x5E0DBAB8)
+I (..\Libraries\Include\gd32e23x_adc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_crc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dbg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dma.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_exti.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fmc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_gpio.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_syscfg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_i2c.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_pmu.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_rcu.h)(0x5E659AAC)
+I (..\Libraries\Include\gd32e23x_rtc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_spi.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_timer.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_usart.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_wwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_misc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_cmp.h)(0x5DF1A6B2)
+I (..\User\systick.h)(0x62342AB1)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\stdio.h)(0x5F36D0B4)
+I (..\User\main.h)(0x620DFF1E)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\string.h)(0x5F36D0A4)
+I (..\Hardware\BSP\bsp.h)(0x620E05B7)
+I (..\Hardware\MULTITASK\multitask.h)(0x623AD219)
+I (..\Hardware\VECTOR\vector.h)(0x620F0B54)
+I (..\Hardware\LED\led.h)(0x620F51FC)
+I (..\Hardware\QUEUE\queue.h)(0x62411199)
+I (..\Hardware\PCMODEL\pcmodel.h)(0x6228A46B)
+I (..\Hardware\USART\usart0.h)(0x62819F35)
+I (..\Hardware\MDU_COMM\mdu_data.h)(0x6281A11C)
+I (..\Hardware\USART\uart_timer_recv.h)(0x6224945D)
+I (..\Hardware\MDU_COMM\comm_snd.h)(0x624D9B28)
+I (..\Hardware\TIMER\timer2.h)(0x62579BEA)
+I (..\Hardware\MOTOR\motor.h)(0x62579BAF)
+I (..\Hardware\ADC\adc.h)(0x6281A68F)
+I (..\Hardware\EXTI\exti.h)(0x622AA6D3)
+I (..\Hardware\TIMER\timer14.h)(0x628318AE)
+I (..\Hardware\WATERLEVEL\waterlevel.h)(0x6281BF3B)
+I (..\Hardware\TM1650\tm1650.h)(0x62348A69)
+I (..\Hardware\KEY\key.h)(0x627F6AAF)
+I (..\Hardware\MSGQUEUE\msgqueue.h)(0x625E082C)
+I (..\Hardware\GD32FLASH\gd32flash.h)(0x62551376)
+I (..\Hardware\USART\usart1.h)(0x6281A161)
+I (..\Hardware\RFID_COMM\rfid_data.h)(0x6281A18D)
+I (..\Hardware\TIMER\timer15.h)(0x624FC375)
+I (..\Hardware\VALVE\valve.h)(0x6253C9DF)
+F (..\Hardware\MULTITASK\multitask.c)(0x623AD236)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -I ../Libraries/Include -I ../User -I ../CMSIS -I ../Hardware/DEFINE -I ../Hardware/BSP -I ../Hardware/MULTITASK -I ../Hardware/VECTOR -I ../Hardware/LED -I ../Hardware/QUEUE -I ../Hardware/PCMODEL -I ../Hardware/USART -I ../Hardware/MDU_COMM -I ../Hardware/TIMER -I ../Hardware/MOTOR -I ../Hardware/ADC -I ../Hardware/EXTI -I ../Hardware/WATERLEVEL -I ../Hardware/TM1650 -I ../Hardware/KEY -I ../Hardware/MSGQUEUE -I ../Hardware/GD32FLASH -I ../Hardware/RFID_COMM -I ../Hardware/VALVE-ID:/anzhuanglujing/GigaDevice/GD32E23x_DFP/1.0.0/Device/Include-ID:/anzhuanglujing/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DGD32E23x -DGD32E230-o ./objects/multitask.o -MD)
+I (..\Hardware\DEFINE\define.h)(0x6281A0D5)
+I (..\CMSIS\gd32e23x.h)(0x5DF1A6B2)
+I (..\CMSIS\core_cm23.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\stdint.h)(0x6275305E)
+I (..\CMSIS\cmsis_version.h)(0x5E8ED122)
+I (..\CMSIS\cmsis_compiler.h)(0x5E8306C2)
+I (..\CMSIS\cmsis_armclang.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_compat.h)(0x5EE12742)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_acle.h)(0x5F268738)
+I (..\CMSIS\system_gd32e23x.h)(0x5DF1A6B2)
+I (..\User\gd32e23x_libopt.h)(0x5E0DBAB8)
+I (..\Libraries\Include\gd32e23x_adc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_crc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dbg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dma.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_exti.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fmc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_gpio.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_syscfg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_i2c.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_pmu.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_rcu.h)(0x5E659AAC)
+I (..\Libraries\Include\gd32e23x_rtc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_spi.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_timer.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_usart.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_wwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_misc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_cmp.h)(0x5DF1A6B2)
+I (..\User\systick.h)(0x62342AB1)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\stdio.h)(0x5F36D0B4)
+I (..\User\main.h)(0x620DFF1E)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\string.h)(0x5F36D0A4)
+I (..\Hardware\BSP\bsp.h)(0x620E05B7)
+I (..\Hardware\MULTITASK\multitask.h)(0x623AD219)
+I (..\Hardware\VECTOR\vector.h)(0x620F0B54)
+I (..\Hardware\LED\led.h)(0x620F51FC)
+I (..\Hardware\QUEUE\queue.h)(0x62411199)
+I (..\Hardware\PCMODEL\pcmodel.h)(0x6228A46B)
+I (..\Hardware\USART\usart0.h)(0x62819F35)
+I (..\Hardware\MDU_COMM\mdu_data.h)(0x6281A11C)
+I (..\Hardware\USART\uart_timer_recv.h)(0x6224945D)
+I (..\Hardware\MDU_COMM\comm_snd.h)(0x624D9B28)
+I (..\Hardware\TIMER\timer2.h)(0x62579BEA)
+I (..\Hardware\MOTOR\motor.h)(0x62579BAF)
+I (..\Hardware\ADC\adc.h)(0x6281A68F)
+I (..\Hardware\EXTI\exti.h)(0x622AA6D3)
+I (..\Hardware\TIMER\timer14.h)(0x628318AE)
+I (..\Hardware\WATERLEVEL\waterlevel.h)(0x6281BF3B)
+I (..\Hardware\TM1650\tm1650.h)(0x62348A69)
+I (..\Hardware\KEY\key.h)(0x627F6AAF)
+I (..\Hardware\MSGQUEUE\msgqueue.h)(0x625E082C)
+I (..\Hardware\GD32FLASH\gd32flash.h)(0x62551376)
+I (..\Hardware\USART\usart1.h)(0x6281A161)
+I (..\Hardware\RFID_COMM\rfid_data.h)(0x6281A18D)
+I (..\Hardware\TIMER\timer15.h)(0x624FC375)
+I (..\Hardware\VALVE\valve.h)(0x6253C9DF)
+F (..\Hardware\VECTOR\vector.c)(0x6281DF62)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -I ../Libraries/Include -I ../User -I ../CMSIS -I ../Hardware/DEFINE -I ../Hardware/BSP -I ../Hardware/MULTITASK -I ../Hardware/VECTOR -I ../Hardware/LED -I ../Hardware/QUEUE -I ../Hardware/PCMODEL -I ../Hardware/USART -I ../Hardware/MDU_COMM -I ../Hardware/TIMER -I ../Hardware/MOTOR -I ../Hardware/ADC -I ../Hardware/EXTI -I ../Hardware/WATERLEVEL -I ../Hardware/TM1650 -I ../Hardware/KEY -I ../Hardware/MSGQUEUE -I ../Hardware/GD32FLASH -I ../Hardware/RFID_COMM -I ../Hardware/VALVE-ID:/anzhuanglujing/GigaDevice/GD32E23x_DFP/1.0.0/Device/Include-ID:/anzhuanglujing/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DGD32E23x -DGD32E230-o ./objects/vector.o -MD)
+I (..\Hardware\DEFINE\define.h)(0x6281A0D5)
+I (..\CMSIS\gd32e23x.h)(0x5DF1A6B2)
+I (..\CMSIS\core_cm23.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\stdint.h)(0x6275305E)
+I (..\CMSIS\cmsis_version.h)(0x5E8ED122)
+I (..\CMSIS\cmsis_compiler.h)(0x5E8306C2)
+I (..\CMSIS\cmsis_armclang.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_compat.h)(0x5EE12742)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_acle.h)(0x5F268738)
+I (..\CMSIS\system_gd32e23x.h)(0x5DF1A6B2)
+I (..\User\gd32e23x_libopt.h)(0x5E0DBAB8)
+I (..\Libraries\Include\gd32e23x_adc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_crc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dbg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dma.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_exti.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fmc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_gpio.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_syscfg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_i2c.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_pmu.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_rcu.h)(0x5E659AAC)
+I (..\Libraries\Include\gd32e23x_rtc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_spi.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_timer.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_usart.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_wwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_misc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_cmp.h)(0x5DF1A6B2)
+I (..\User\systick.h)(0x62342AB1)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\stdio.h)(0x5F36D0B4)
+I (..\User\main.h)(0x620DFF1E)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\string.h)(0x5F36D0A4)
+I (..\Hardware\BSP\bsp.h)(0x620E05B7)
+I (..\Hardware\MULTITASK\multitask.h)(0x623AD219)
+I (..\Hardware\VECTOR\vector.h)(0x620F0B54)
+I (..\Hardware\LED\led.h)(0x620F51FC)
+I (..\Hardware\QUEUE\queue.h)(0x62411199)
+I (..\Hardware\PCMODEL\pcmodel.h)(0x6228A46B)
+I (..\Hardware\USART\usart0.h)(0x62819F35)
+I (..\Hardware\MDU_COMM\mdu_data.h)(0x6281A11C)
+I (..\Hardware\USART\uart_timer_recv.h)(0x6224945D)
+I (..\Hardware\MDU_COMM\comm_snd.h)(0x624D9B28)
+I (..\Hardware\TIMER\timer2.h)(0x62579BEA)
+I (..\Hardware\MOTOR\motor.h)(0x62579BAF)
+I (..\Hardware\ADC\adc.h)(0x6281A68F)
+I (..\Hardware\EXTI\exti.h)(0x622AA6D3)
+I (..\Hardware\TIMER\timer14.h)(0x628318AE)
+I (..\Hardware\WATERLEVEL\waterlevel.h)(0x6281BF3B)
+I (..\Hardware\TM1650\tm1650.h)(0x62348A69)
+I (..\Hardware\KEY\key.h)(0x627F6AAF)
+I (..\Hardware\MSGQUEUE\msgqueue.h)(0x625E082C)
+I (..\Hardware\GD32FLASH\gd32flash.h)(0x62551376)
+I (..\Hardware\USART\usart1.h)(0x6281A161)
+I (..\Hardware\RFID_COMM\rfid_data.h)(0x6281A18D)
+I (..\Hardware\TIMER\timer15.h)(0x624FC375)
+I (..\Hardware\VALVE\valve.h)(0x6253C9DF)
+F (..\Hardware\LED\led.c)(0x6275C8CE)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -I ../Libraries/Include -I ../User -I ../CMSIS -I ../Hardware/DEFINE -I ../Hardware/BSP -I ../Hardware/MULTITASK -I ../Hardware/VECTOR -I ../Hardware/LED -I ../Hardware/QUEUE -I ../Hardware/PCMODEL -I ../Hardware/USART -I ../Hardware/MDU_COMM -I ../Hardware/TIMER -I ../Hardware/MOTOR -I ../Hardware/ADC -I ../Hardware/EXTI -I ../Hardware/WATERLEVEL -I ../Hardware/TM1650 -I ../Hardware/KEY -I ../Hardware/MSGQUEUE -I ../Hardware/GD32FLASH -I ../Hardware/RFID_COMM -I ../Hardware/VALVE-ID:/anzhuanglujing/GigaDevice/GD32E23x_DFP/1.0.0/Device/Include-ID:/anzhuanglujing/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DGD32E23x -DGD32E230-o ./objects/led.o -MD)
+I (..\Hardware\DEFINE\define.h)(0x6281A0D5)
+I (..\CMSIS\gd32e23x.h)(0x5DF1A6B2)
+I (..\CMSIS\core_cm23.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\stdint.h)(0x6275305E)
+I (..\CMSIS\cmsis_version.h)(0x5E8ED122)
+I (..\CMSIS\cmsis_compiler.h)(0x5E8306C2)
+I (..\CMSIS\cmsis_armclang.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_compat.h)(0x5EE12742)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_acle.h)(0x5F268738)
+I (..\CMSIS\system_gd32e23x.h)(0x5DF1A6B2)
+I (..\User\gd32e23x_libopt.h)(0x5E0DBAB8)
+I (..\Libraries\Include\gd32e23x_adc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_crc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dbg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dma.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_exti.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fmc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_gpio.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_syscfg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_i2c.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_pmu.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_rcu.h)(0x5E659AAC)
+I (..\Libraries\Include\gd32e23x_rtc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_spi.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_timer.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_usart.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_wwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_misc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_cmp.h)(0x5DF1A6B2)
+I (..\User\systick.h)(0x62342AB1)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\stdio.h)(0x5F36D0B4)
+I (..\User\main.h)(0x620DFF1E)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\string.h)(0x5F36D0A4)
+I (..\Hardware\BSP\bsp.h)(0x620E05B7)
+I (..\Hardware\MULTITASK\multitask.h)(0x623AD219)
+I (..\Hardware\VECTOR\vector.h)(0x620F0B54)
+I (..\Hardware\LED\led.h)(0x620F51FC)
+I (..\Hardware\QUEUE\queue.h)(0x62411199)
+I (..\Hardware\PCMODEL\pcmodel.h)(0x6228A46B)
+I (..\Hardware\USART\usart0.h)(0x62819F35)
+I (..\Hardware\MDU_COMM\mdu_data.h)(0x6281A11C)
+I (..\Hardware\USART\uart_timer_recv.h)(0x6224945D)
+I (..\Hardware\MDU_COMM\comm_snd.h)(0x624D9B28)
+I (..\Hardware\TIMER\timer2.h)(0x62579BEA)
+I (..\Hardware\MOTOR\motor.h)(0x62579BAF)
+I (..\Hardware\ADC\adc.h)(0x6281A68F)
+I (..\Hardware\EXTI\exti.h)(0x622AA6D3)
+I (..\Hardware\TIMER\timer14.h)(0x628318AE)
+I (..\Hardware\WATERLEVEL\waterlevel.h)(0x6281BF3B)
+I (..\Hardware\TM1650\tm1650.h)(0x62348A69)
+I (..\Hardware\KEY\key.h)(0x627F6AAF)
+I (..\Hardware\MSGQUEUE\msgqueue.h)(0x625E082C)
+I (..\Hardware\GD32FLASH\gd32flash.h)(0x62551376)
+I (..\Hardware\USART\usart1.h)(0x6281A161)
+I (..\Hardware\RFID_COMM\rfid_data.h)(0x6281A18D)
+I (..\Hardware\TIMER\timer15.h)(0x624FC375)
+I (..\Hardware\VALVE\valve.h)(0x6253C9DF)
+F (..\Hardware\QUEUE\queue.c)(0x623AD236)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -I ../Libraries/Include -I ../User -I ../CMSIS -I ../Hardware/DEFINE -I ../Hardware/BSP -I ../Hardware/MULTITASK -I ../Hardware/VECTOR -I ../Hardware/LED -I ../Hardware/QUEUE -I ../Hardware/PCMODEL -I ../Hardware/USART -I ../Hardware/MDU_COMM -I ../Hardware/TIMER -I ../Hardware/MOTOR -I ../Hardware/ADC -I ../Hardware/EXTI -I ../Hardware/WATERLEVEL -I ../Hardware/TM1650 -I ../Hardware/KEY -I ../Hardware/MSGQUEUE -I ../Hardware/GD32FLASH -I ../Hardware/RFID_COMM -I ../Hardware/VALVE-ID:/anzhuanglujing/GigaDevice/GD32E23x_DFP/1.0.0/Device/Include-ID:/anzhuanglujing/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DGD32E23x -DGD32E230-o ./objects/queue.o -MD)
+I (..\Hardware\DEFINE\define.h)(0x6281A0D5)
+I (..\CMSIS\gd32e23x.h)(0x5DF1A6B2)
+I (..\CMSIS\core_cm23.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\stdint.h)(0x6275305E)
+I (..\CMSIS\cmsis_version.h)(0x5E8ED122)
+I (..\CMSIS\cmsis_compiler.h)(0x5E8306C2)
+I (..\CMSIS\cmsis_armclang.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_compat.h)(0x5EE12742)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_acle.h)(0x5F268738)
+I (..\CMSIS\system_gd32e23x.h)(0x5DF1A6B2)
+I (..\User\gd32e23x_libopt.h)(0x5E0DBAB8)
+I (..\Libraries\Include\gd32e23x_adc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_crc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dbg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dma.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_exti.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fmc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_gpio.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_syscfg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_i2c.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_pmu.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_rcu.h)(0x5E659AAC)
+I (..\Libraries\Include\gd32e23x_rtc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_spi.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_timer.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_usart.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_wwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_misc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_cmp.h)(0x5DF1A6B2)
+I (..\User\systick.h)(0x62342AB1)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\stdio.h)(0x5F36D0B4)
+I (..\User\main.h)(0x620DFF1E)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\string.h)(0x5F36D0A4)
+I (..\Hardware\BSP\bsp.h)(0x620E05B7)
+I (..\Hardware\MULTITASK\multitask.h)(0x623AD219)
+I (..\Hardware\VECTOR\vector.h)(0x620F0B54)
+I (..\Hardware\LED\led.h)(0x620F51FC)
+I (..\Hardware\QUEUE\queue.h)(0x62411199)
+I (..\Hardware\PCMODEL\pcmodel.h)(0x6228A46B)
+I (..\Hardware\USART\usart0.h)(0x62819F35)
+I (..\Hardware\MDU_COMM\mdu_data.h)(0x6281A11C)
+I (..\Hardware\USART\uart_timer_recv.h)(0x6224945D)
+I (..\Hardware\MDU_COMM\comm_snd.h)(0x624D9B28)
+I (..\Hardware\TIMER\timer2.h)(0x62579BEA)
+I (..\Hardware\MOTOR\motor.h)(0x62579BAF)
+I (..\Hardware\ADC\adc.h)(0x6281A68F)
+I (..\Hardware\EXTI\exti.h)(0x622AA6D3)
+I (..\Hardware\TIMER\timer14.h)(0x628318AE)
+I (..\Hardware\WATERLEVEL\waterlevel.h)(0x6281BF3B)
+I (..\Hardware\TM1650\tm1650.h)(0x62348A69)
+I (..\Hardware\KEY\key.h)(0x627F6AAF)
+I (..\Hardware\MSGQUEUE\msgqueue.h)(0x625E082C)
+I (..\Hardware\GD32FLASH\gd32flash.h)(0x62551376)
+I (..\Hardware\USART\usart1.h)(0x6281A161)
+I (..\Hardware\RFID_COMM\rfid_data.h)(0x6281A18D)
+I (..\Hardware\TIMER\timer15.h)(0x624FC375)
+I (..\Hardware\VALVE\valve.h)(0x6253C9DF)
+F (..\Hardware\PCMODEL\pcmodel.c)(0x6228AF48)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -I ../Libraries/Include -I ../User -I ../CMSIS -I ../Hardware/DEFINE -I ../Hardware/BSP -I ../Hardware/MULTITASK -I ../Hardware/VECTOR -I ../Hardware/LED -I ../Hardware/QUEUE -I ../Hardware/PCMODEL -I ../Hardware/USART -I ../Hardware/MDU_COMM -I ../Hardware/TIMER -I ../Hardware/MOTOR -I ../Hardware/ADC -I ../Hardware/EXTI -I ../Hardware/WATERLEVEL -I ../Hardware/TM1650 -I ../Hardware/KEY -I ../Hardware/MSGQUEUE -I ../Hardware/GD32FLASH -I ../Hardware/RFID_COMM -I ../Hardware/VALVE-ID:/anzhuanglujing/GigaDevice/GD32E23x_DFP/1.0.0/Device/Include-ID:/anzhuanglujing/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DGD32E23x -DGD32E230-o ./objects/pcmodel.o -MD)
+I (..\Hardware\DEFINE\define.h)(0x6281A0D5)
+I (..\CMSIS\gd32e23x.h)(0x5DF1A6B2)
+I (..\CMSIS\core_cm23.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\stdint.h)(0x6275305E)
+I (..\CMSIS\cmsis_version.h)(0x5E8ED122)
+I (..\CMSIS\cmsis_compiler.h)(0x5E8306C2)
+I (..\CMSIS\cmsis_armclang.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_compat.h)(0x5EE12742)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_acle.h)(0x5F268738)
+I (..\CMSIS\system_gd32e23x.h)(0x5DF1A6B2)
+I (..\User\gd32e23x_libopt.h)(0x5E0DBAB8)
+I (..\Libraries\Include\gd32e23x_adc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_crc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dbg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dma.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_exti.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fmc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_gpio.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_syscfg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_i2c.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_pmu.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_rcu.h)(0x5E659AAC)
+I (..\Libraries\Include\gd32e23x_rtc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_spi.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_timer.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_usart.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_wwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_misc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_cmp.h)(0x5DF1A6B2)
+I (..\User\systick.h)(0x62342AB1)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\stdio.h)(0x5F36D0B4)
+I (..\User\main.h)(0x620DFF1E)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\string.h)(0x5F36D0A4)
+I (..\Hardware\BSP\bsp.h)(0x620E05B7)
+I (..\Hardware\MULTITASK\multitask.h)(0x623AD219)
+I (..\Hardware\VECTOR\vector.h)(0x620F0B54)
+I (..\Hardware\LED\led.h)(0x620F51FC)
+I (..\Hardware\QUEUE\queue.h)(0x62411199)
+I (..\Hardware\PCMODEL\pcmodel.h)(0x6228A46B)
+I (..\Hardware\USART\usart0.h)(0x62819F35)
+I (..\Hardware\MDU_COMM\mdu_data.h)(0x6281A11C)
+I (..\Hardware\USART\uart_timer_recv.h)(0x6224945D)
+I (..\Hardware\MDU_COMM\comm_snd.h)(0x624D9B28)
+I (..\Hardware\TIMER\timer2.h)(0x62579BEA)
+I (..\Hardware\MOTOR\motor.h)(0x62579BAF)
+I (..\Hardware\ADC\adc.h)(0x6281A68F)
+I (..\Hardware\EXTI\exti.h)(0x622AA6D3)
+I (..\Hardware\TIMER\timer14.h)(0x628318AE)
+I (..\Hardware\WATERLEVEL\waterlevel.h)(0x6281BF3B)
+I (..\Hardware\TM1650\tm1650.h)(0x62348A69)
+I (..\Hardware\KEY\key.h)(0x627F6AAF)
+I (..\Hardware\MSGQUEUE\msgqueue.h)(0x625E082C)
+I (..\Hardware\GD32FLASH\gd32flash.h)(0x62551376)
+I (..\Hardware\USART\usart1.h)(0x6281A161)
+I (..\Hardware\RFID_COMM\rfid_data.h)(0x6281A18D)
+I (..\Hardware\TIMER\timer15.h)(0x624FC375)
+I (..\Hardware\VALVE\valve.h)(0x6253C9DF)
+F (..\Hardware\USART\usart0.c)(0x6281ED3D)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -I ../Libraries/Include -I ../User -I ../CMSIS -I ../Hardware/DEFINE -I ../Hardware/BSP -I ../Hardware/MULTITASK -I ../Hardware/VECTOR -I ../Hardware/LED -I ../Hardware/QUEUE -I ../Hardware/PCMODEL -I ../Hardware/USART -I ../Hardware/MDU_COMM -I ../Hardware/TIMER -I ../Hardware/MOTOR -I ../Hardware/ADC -I ../Hardware/EXTI -I ../Hardware/WATERLEVEL -I ../Hardware/TM1650 -I ../Hardware/KEY -I ../Hardware/MSGQUEUE -I ../Hardware/GD32FLASH -I ../Hardware/RFID_COMM -I ../Hardware/VALVE-ID:/anzhuanglujing/GigaDevice/GD32E23x_DFP/1.0.0/Device/Include-ID:/anzhuanglujing/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DGD32E23x -DGD32E230-o ./objects/usart0.o -MD)
+I (..\Hardware\DEFINE\define.h)(0x6281A0D5)
+I (..\CMSIS\gd32e23x.h)(0x5DF1A6B2)
+I (..\CMSIS\core_cm23.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\stdint.h)(0x6275305E)
+I (..\CMSIS\cmsis_version.h)(0x5E8ED122)
+I (..\CMSIS\cmsis_compiler.h)(0x5E8306C2)
+I (..\CMSIS\cmsis_armclang.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_compat.h)(0x5EE12742)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_acle.h)(0x5F268738)
+I (..\CMSIS\system_gd32e23x.h)(0x5DF1A6B2)
+I (..\User\gd32e23x_libopt.h)(0x5E0DBAB8)
+I (..\Libraries\Include\gd32e23x_adc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_crc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dbg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dma.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_exti.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fmc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_gpio.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_syscfg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_i2c.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_pmu.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_rcu.h)(0x5E659AAC)
+I (..\Libraries\Include\gd32e23x_rtc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_spi.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_timer.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_usart.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_wwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_misc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_cmp.h)(0x5DF1A6B2)
+I (..\User\systick.h)(0x62342AB1)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\stdio.h)(0x5F36D0B4)
+I (..\User\main.h)(0x620DFF1E)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\string.h)(0x5F36D0A4)
+I (..\Hardware\BSP\bsp.h)(0x620E05B7)
+I (..\Hardware\MULTITASK\multitask.h)(0x623AD219)
+I (..\Hardware\VECTOR\vector.h)(0x620F0B54)
+I (..\Hardware\LED\led.h)(0x620F51FC)
+I (..\Hardware\QUEUE\queue.h)(0x62411199)
+I (..\Hardware\PCMODEL\pcmodel.h)(0x6228A46B)
+I (..\Hardware\USART\usart0.h)(0x62819F35)
+I (..\Hardware\MDU_COMM\mdu_data.h)(0x6281A11C)
+I (..\Hardware\USART\uart_timer_recv.h)(0x6224945D)
+I (..\Hardware\MDU_COMM\comm_snd.h)(0x624D9B28)
+I (..\Hardware\TIMER\timer2.h)(0x62579BEA)
+I (..\Hardware\MOTOR\motor.h)(0x62579BAF)
+I (..\Hardware\ADC\adc.h)(0x6281A68F)
+I (..\Hardware\EXTI\exti.h)(0x622AA6D3)
+I (..\Hardware\TIMER\timer14.h)(0x628318AE)
+I (..\Hardware\WATERLEVEL\waterlevel.h)(0x6281BF3B)
+I (..\Hardware\TM1650\tm1650.h)(0x62348A69)
+I (..\Hardware\KEY\key.h)(0x627F6AAF)
+I (..\Hardware\MSGQUEUE\msgqueue.h)(0x625E082C)
+I (..\Hardware\GD32FLASH\gd32flash.h)(0x62551376)
+I (..\Hardware\USART\usart1.h)(0x6281A161)
+I (..\Hardware\RFID_COMM\rfid_data.h)(0x6281A18D)
+I (..\Hardware\TIMER\timer15.h)(0x624FC375)
+I (..\Hardware\VALVE\valve.h)(0x6253C9DF)
+F (..\Hardware\MDU_COMM\mdu_data.c)(0x6286037A)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -I ../Libraries/Include -I ../User -I ../CMSIS -I ../Hardware/DEFINE -I ../Hardware/BSP -I ../Hardware/MULTITASK -I ../Hardware/VECTOR -I ../Hardware/LED -I ../Hardware/QUEUE -I ../Hardware/PCMODEL -I ../Hardware/USART -I ../Hardware/MDU_COMM -I ../Hardware/TIMER -I ../Hardware/MOTOR -I ../Hardware/ADC -I ../Hardware/EXTI -I ../Hardware/WATERLEVEL -I ../Hardware/TM1650 -I ../Hardware/KEY -I ../Hardware/MSGQUEUE -I ../Hardware/GD32FLASH -I ../Hardware/RFID_COMM -I ../Hardware/VALVE-ID:/anzhuanglujing/GigaDevice/GD32E23x_DFP/1.0.0/Device/Include-ID:/anzhuanglujing/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DGD32E23x -DGD32E230-o ./objects/mdu_data.o -MD)
+I (..\Hardware\DEFINE\define.h)(0x6281A0D5)
+I (..\CMSIS\gd32e23x.h)(0x5DF1A6B2)
+I (..\CMSIS\core_cm23.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\stdint.h)(0x6275305E)
+I (..\CMSIS\cmsis_version.h)(0x5E8ED122)
+I (..\CMSIS\cmsis_compiler.h)(0x5E8306C2)
+I (..\CMSIS\cmsis_armclang.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_compat.h)(0x5EE12742)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_acle.h)(0x5F268738)
+I (..\CMSIS\system_gd32e23x.h)(0x5DF1A6B2)
+I (..\User\gd32e23x_libopt.h)(0x5E0DBAB8)
+I (..\Libraries\Include\gd32e23x_adc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_crc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dbg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dma.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_exti.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fmc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_gpio.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_syscfg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_i2c.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_pmu.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_rcu.h)(0x5E659AAC)
+I (..\Libraries\Include\gd32e23x_rtc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_spi.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_timer.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_usart.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_wwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_misc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_cmp.h)(0x5DF1A6B2)
+I (..\User\systick.h)(0x62342AB1)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\stdio.h)(0x5F36D0B4)
+I (..\User\main.h)(0x620DFF1E)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\string.h)(0x5F36D0A4)
+I (..\Hardware\BSP\bsp.h)(0x620E05B7)
+I (..\Hardware\MULTITASK\multitask.h)(0x623AD219)
+I (..\Hardware\VECTOR\vector.h)(0x620F0B54)
+I (..\Hardware\LED\led.h)(0x620F51FC)
+I (..\Hardware\QUEUE\queue.h)(0x62411199)
+I (..\Hardware\PCMODEL\pcmodel.h)(0x6228A46B)
+I (..\Hardware\USART\usart0.h)(0x62819F35)
+I (..\Hardware\MDU_COMM\mdu_data.h)(0x6281A11C)
+I (..\Hardware\USART\uart_timer_recv.h)(0x6224945D)
+I (..\Hardware\MDU_COMM\comm_snd.h)(0x624D9B28)
+I (..\Hardware\TIMER\timer2.h)(0x62579BEA)
+I (..\Hardware\MOTOR\motor.h)(0x62579BAF)
+I (..\Hardware\ADC\adc.h)(0x6281A68F)
+I (..\Hardware\EXTI\exti.h)(0x622AA6D3)
+I (..\Hardware\TIMER\timer14.h)(0x628318AE)
+I (..\Hardware\WATERLEVEL\waterlevel.h)(0x6281BF3B)
+I (..\Hardware\TM1650\tm1650.h)(0x62348A69)
+I (..\Hardware\KEY\key.h)(0x627F6AAF)
+I (..\Hardware\MSGQUEUE\msgqueue.h)(0x625E082C)
+I (..\Hardware\GD32FLASH\gd32flash.h)(0x62551376)
+I (..\Hardware\USART\usart1.h)(0x6281A161)
+I (..\Hardware\RFID_COMM\rfid_data.h)(0x6281A18D)
+I (..\Hardware\TIMER\timer15.h)(0x624FC375)
+I (..\Hardware\VALVE\valve.h)(0x6253C9DF)
+F (..\Hardware\TIMER\timer2.c)(0x624F9D94)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -I ../Libraries/Include -I ../User -I ../CMSIS -I ../Hardware/DEFINE -I ../Hardware/BSP -I ../Hardware/MULTITASK -I ../Hardware/VECTOR -I ../Hardware/LED -I ../Hardware/QUEUE -I ../Hardware/PCMODEL -I ../Hardware/USART -I ../Hardware/MDU_COMM -I ../Hardware/TIMER -I ../Hardware/MOTOR -I ../Hardware/ADC -I ../Hardware/EXTI -I ../Hardware/WATERLEVEL -I ../Hardware/TM1650 -I ../Hardware/KEY -I ../Hardware/MSGQUEUE -I ../Hardware/GD32FLASH -I ../Hardware/RFID_COMM -I ../Hardware/VALVE-ID:/anzhuanglujing/GigaDevice/GD32E23x_DFP/1.0.0/Device/Include-ID:/anzhuanglujing/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DGD32E23x -DGD32E230-o ./objects/timer2.o -MD)
+I (..\Hardware\DEFINE\define.h)(0x6281A0D5)
+I (..\CMSIS\gd32e23x.h)(0x5DF1A6B2)
+I (..\CMSIS\core_cm23.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\stdint.h)(0x6275305E)
+I (..\CMSIS\cmsis_version.h)(0x5E8ED122)
+I (..\CMSIS\cmsis_compiler.h)(0x5E8306C2)
+I (..\CMSIS\cmsis_armclang.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_compat.h)(0x5EE12742)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_acle.h)(0x5F268738)
+I (..\CMSIS\system_gd32e23x.h)(0x5DF1A6B2)
+I (..\User\gd32e23x_libopt.h)(0x5E0DBAB8)
+I (..\Libraries\Include\gd32e23x_adc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_crc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dbg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dma.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_exti.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fmc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_gpio.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_syscfg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_i2c.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_pmu.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_rcu.h)(0x5E659AAC)
+I (..\Libraries\Include\gd32e23x_rtc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_spi.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_timer.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_usart.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_wwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_misc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_cmp.h)(0x5DF1A6B2)
+I (..\User\systick.h)(0x62342AB1)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\stdio.h)(0x5F36D0B4)
+I (..\User\main.h)(0x620DFF1E)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\string.h)(0x5F36D0A4)
+I (..\Hardware\BSP\bsp.h)(0x620E05B7)
+I (..\Hardware\MULTITASK\multitask.h)(0x623AD219)
+I (..\Hardware\VECTOR\vector.h)(0x620F0B54)
+I (..\Hardware\LED\led.h)(0x620F51FC)
+I (..\Hardware\QUEUE\queue.h)(0x62411199)
+I (..\Hardware\PCMODEL\pcmodel.h)(0x6228A46B)
+I (..\Hardware\USART\usart0.h)(0x62819F35)
+I (..\Hardware\MDU_COMM\mdu_data.h)(0x6281A11C)
+I (..\Hardware\USART\uart_timer_recv.h)(0x6224945D)
+I (..\Hardware\MDU_COMM\comm_snd.h)(0x624D9B28)
+I (..\Hardware\TIMER\timer2.h)(0x62579BEA)
+I (..\Hardware\MOTOR\motor.h)(0x62579BAF)
+I (..\Hardware\ADC\adc.h)(0x6281A68F)
+I (..\Hardware\EXTI\exti.h)(0x622AA6D3)
+I (..\Hardware\TIMER\timer14.h)(0x628318AE)
+I (..\Hardware\WATERLEVEL\waterlevel.h)(0x6281BF3B)
+I (..\Hardware\TM1650\tm1650.h)(0x62348A69)
+I (..\Hardware\KEY\key.h)(0x627F6AAF)
+I (..\Hardware\MSGQUEUE\msgqueue.h)(0x625E082C)
+I (..\Hardware\GD32FLASH\gd32flash.h)(0x62551376)
+I (..\Hardware\USART\usart1.h)(0x6281A161)
+I (..\Hardware\RFID_COMM\rfid_data.h)(0x6281A18D)
+I (..\Hardware\TIMER\timer15.h)(0x624FC375)
+I (..\Hardware\VALVE\valve.h)(0x6253C9DF)
+F (..\Hardware\MOTOR\motor.c)(0x6253C016)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -I ../Libraries/Include -I ../User -I ../CMSIS -I ../Hardware/DEFINE -I ../Hardware/BSP -I ../Hardware/MULTITASK -I ../Hardware/VECTOR -I ../Hardware/LED -I ../Hardware/QUEUE -I ../Hardware/PCMODEL -I ../Hardware/USART -I ../Hardware/MDU_COMM -I ../Hardware/TIMER -I ../Hardware/MOTOR -I ../Hardware/ADC -I ../Hardware/EXTI -I ../Hardware/WATERLEVEL -I ../Hardware/TM1650 -I ../Hardware/KEY -I ../Hardware/MSGQUEUE -I ../Hardware/GD32FLASH -I ../Hardware/RFID_COMM -I ../Hardware/VALVE-ID:/anzhuanglujing/GigaDevice/GD32E23x_DFP/1.0.0/Device/Include-ID:/anzhuanglujing/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DGD32E23x -DGD32E230-o ./objects/motor.o -MD)
+I (..\Hardware\DEFINE\define.h)(0x6281A0D5)
+I (..\CMSIS\gd32e23x.h)(0x5DF1A6B2)
+I (..\CMSIS\core_cm23.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\stdint.h)(0x6275305E)
+I (..\CMSIS\cmsis_version.h)(0x5E8ED122)
+I (..\CMSIS\cmsis_compiler.h)(0x5E8306C2)
+I (..\CMSIS\cmsis_armclang.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_compat.h)(0x5EE12742)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_acle.h)(0x5F268738)
+I (..\CMSIS\system_gd32e23x.h)(0x5DF1A6B2)
+I (..\User\gd32e23x_libopt.h)(0x5E0DBAB8)
+I (..\Libraries\Include\gd32e23x_adc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_crc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dbg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dma.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_exti.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fmc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_gpio.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_syscfg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_i2c.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_pmu.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_rcu.h)(0x5E659AAC)
+I (..\Libraries\Include\gd32e23x_rtc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_spi.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_timer.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_usart.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_wwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_misc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_cmp.h)(0x5DF1A6B2)
+I (..\User\systick.h)(0x62342AB1)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\stdio.h)(0x5F36D0B4)
+I (..\User\main.h)(0x620DFF1E)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\string.h)(0x5F36D0A4)
+I (..\Hardware\BSP\bsp.h)(0x620E05B7)
+I (..\Hardware\MULTITASK\multitask.h)(0x623AD219)
+I (..\Hardware\VECTOR\vector.h)(0x620F0B54)
+I (..\Hardware\LED\led.h)(0x620F51FC)
+I (..\Hardware\QUEUE\queue.h)(0x62411199)
+I (..\Hardware\PCMODEL\pcmodel.h)(0x6228A46B)
+I (..\Hardware\USART\usart0.h)(0x62819F35)
+I (..\Hardware\MDU_COMM\mdu_data.h)(0x6281A11C)
+I (..\Hardware\USART\uart_timer_recv.h)(0x6224945D)
+I (..\Hardware\MDU_COMM\comm_snd.h)(0x624D9B28)
+I (..\Hardware\TIMER\timer2.h)(0x62579BEA)
+I (..\Hardware\MOTOR\motor.h)(0x62579BAF)
+I (..\Hardware\ADC\adc.h)(0x6281A68F)
+I (..\Hardware\EXTI\exti.h)(0x622AA6D3)
+I (..\Hardware\TIMER\timer14.h)(0x628318AE)
+I (..\Hardware\WATERLEVEL\waterlevel.h)(0x6281BF3B)
+I (..\Hardware\TM1650\tm1650.h)(0x62348A69)
+I (..\Hardware\KEY\key.h)(0x627F6AAF)
+I (..\Hardware\MSGQUEUE\msgqueue.h)(0x625E082C)
+I (..\Hardware\GD32FLASH\gd32flash.h)(0x62551376)
+I (..\Hardware\USART\usart1.h)(0x6281A161)
+I (..\Hardware\RFID_COMM\rfid_data.h)(0x6281A18D)
+I (..\Hardware\TIMER\timer15.h)(0x624FC375)
+I (..\Hardware\VALVE\valve.h)(0x6253C9DF)
+F (..\Hardware\ADC\adc.c)(0x6283435D)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -I ../Libraries/Include -I ../User -I ../CMSIS -I ../Hardware/DEFINE -I ../Hardware/BSP -I ../Hardware/MULTITASK -I ../Hardware/VECTOR -I ../Hardware/LED -I ../Hardware/QUEUE -I ../Hardware/PCMODEL -I ../Hardware/USART -I ../Hardware/MDU_COMM -I ../Hardware/TIMER -I ../Hardware/MOTOR -I ../Hardware/ADC -I ../Hardware/EXTI -I ../Hardware/WATERLEVEL -I ../Hardware/TM1650 -I ../Hardware/KEY -I ../Hardware/MSGQUEUE -I ../Hardware/GD32FLASH -I ../Hardware/RFID_COMM -I ../Hardware/VALVE-ID:/anzhuanglujing/GigaDevice/GD32E23x_DFP/1.0.0/Device/Include-ID:/anzhuanglujing/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DGD32E23x -DGD32E230-o ./objects/adc.o -MD)
+I (..\Hardware\DEFINE\define.h)(0x6281A0D5)
+I (..\CMSIS\gd32e23x.h)(0x5DF1A6B2)
+I (..\CMSIS\core_cm23.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\stdint.h)(0x6275305E)
+I (..\CMSIS\cmsis_version.h)(0x5E8ED122)
+I (..\CMSIS\cmsis_compiler.h)(0x5E8306C2)
+I (..\CMSIS\cmsis_armclang.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_compat.h)(0x5EE12742)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_acle.h)(0x5F268738)
+I (..\CMSIS\system_gd32e23x.h)(0x5DF1A6B2)
+I (..\User\gd32e23x_libopt.h)(0x5E0DBAB8)
+I (..\Libraries\Include\gd32e23x_adc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_crc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dbg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dma.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_exti.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fmc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_gpio.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_syscfg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_i2c.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_pmu.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_rcu.h)(0x5E659AAC)
+I (..\Libraries\Include\gd32e23x_rtc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_spi.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_timer.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_usart.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_wwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_misc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_cmp.h)(0x5DF1A6B2)
+I (..\User\systick.h)(0x62342AB1)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\stdio.h)(0x5F36D0B4)
+I (..\User\main.h)(0x620DFF1E)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\string.h)(0x5F36D0A4)
+I (..\Hardware\BSP\bsp.h)(0x620E05B7)
+I (..\Hardware\MULTITASK\multitask.h)(0x623AD219)
+I (..\Hardware\VECTOR\vector.h)(0x620F0B54)
+I (..\Hardware\LED\led.h)(0x620F51FC)
+I (..\Hardware\QUEUE\queue.h)(0x62411199)
+I (..\Hardware\PCMODEL\pcmodel.h)(0x6228A46B)
+I (..\Hardware\USART\usart0.h)(0x62819F35)
+I (..\Hardware\MDU_COMM\mdu_data.h)(0x6281A11C)
+I (..\Hardware\USART\uart_timer_recv.h)(0x6224945D)
+I (..\Hardware\MDU_COMM\comm_snd.h)(0x624D9B28)
+I (..\Hardware\TIMER\timer2.h)(0x62579BEA)
+I (..\Hardware\MOTOR\motor.h)(0x62579BAF)
+I (..\Hardware\ADC\adc.h)(0x6281A68F)
+I (..\Hardware\EXTI\exti.h)(0x622AA6D3)
+I (..\Hardware\TIMER\timer14.h)(0x628318AE)
+I (..\Hardware\WATERLEVEL\waterlevel.h)(0x6281BF3B)
+I (..\Hardware\TM1650\tm1650.h)(0x62348A69)
+I (..\Hardware\KEY\key.h)(0x627F6AAF)
+I (..\Hardware\MSGQUEUE\msgqueue.h)(0x625E082C)
+I (..\Hardware\GD32FLASH\gd32flash.h)(0x62551376)
+I (..\Hardware\USART\usart1.h)(0x6281A161)
+I (..\Hardware\RFID_COMM\rfid_data.h)(0x6281A18D)
+I (..\Hardware\TIMER\timer15.h)(0x624FC375)
+I (..\Hardware\VALVE\valve.h)(0x6253C9DF)
+F (..\Hardware\EXTI\exti.c)(0x6281F421)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -I ../Libraries/Include -I ../User -I ../CMSIS -I ../Hardware/DEFINE -I ../Hardware/BSP -I ../Hardware/MULTITASK -I ../Hardware/VECTOR -I ../Hardware/LED -I ../Hardware/QUEUE -I ../Hardware/PCMODEL -I ../Hardware/USART -I ../Hardware/MDU_COMM -I ../Hardware/TIMER -I ../Hardware/MOTOR -I ../Hardware/ADC -I ../Hardware/EXTI -I ../Hardware/WATERLEVEL -I ../Hardware/TM1650 -I ../Hardware/KEY -I ../Hardware/MSGQUEUE -I ../Hardware/GD32FLASH -I ../Hardware/RFID_COMM -I ../Hardware/VALVE-ID:/anzhuanglujing/GigaDevice/GD32E23x_DFP/1.0.0/Device/Include-ID:/anzhuanglujing/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DGD32E23x -DGD32E230-o ./objects/exti.o -MD)
+I (..\Hardware\DEFINE\define.h)(0x6281A0D5)
+I (..\CMSIS\gd32e23x.h)(0x5DF1A6B2)
+I (..\CMSIS\core_cm23.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\stdint.h)(0x6275305E)
+I (..\CMSIS\cmsis_version.h)(0x5E8ED122)
+I (..\CMSIS\cmsis_compiler.h)(0x5E8306C2)
+I (..\CMSIS\cmsis_armclang.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_compat.h)(0x5EE12742)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_acle.h)(0x5F268738)
+I (..\CMSIS\system_gd32e23x.h)(0x5DF1A6B2)
+I (..\User\gd32e23x_libopt.h)(0x5E0DBAB8)
+I (..\Libraries\Include\gd32e23x_adc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_crc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dbg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dma.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_exti.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fmc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_gpio.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_syscfg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_i2c.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_pmu.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_rcu.h)(0x5E659AAC)
+I (..\Libraries\Include\gd32e23x_rtc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_spi.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_timer.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_usart.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_wwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_misc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_cmp.h)(0x5DF1A6B2)
+I (..\User\systick.h)(0x62342AB1)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\stdio.h)(0x5F36D0B4)
+I (..\User\main.h)(0x620DFF1E)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\string.h)(0x5F36D0A4)
+I (..\Hardware\BSP\bsp.h)(0x620E05B7)
+I (..\Hardware\MULTITASK\multitask.h)(0x623AD219)
+I (..\Hardware\VECTOR\vector.h)(0x620F0B54)
+I (..\Hardware\LED\led.h)(0x620F51FC)
+I (..\Hardware\QUEUE\queue.h)(0x62411199)
+I (..\Hardware\PCMODEL\pcmodel.h)(0x6228A46B)
+I (..\Hardware\USART\usart0.h)(0x62819F35)
+I (..\Hardware\MDU_COMM\mdu_data.h)(0x6281A11C)
+I (..\Hardware\USART\uart_timer_recv.h)(0x6224945D)
+I (..\Hardware\MDU_COMM\comm_snd.h)(0x624D9B28)
+I (..\Hardware\TIMER\timer2.h)(0x62579BEA)
+I (..\Hardware\MOTOR\motor.h)(0x62579BAF)
+I (..\Hardware\ADC\adc.h)(0x6281A68F)
+I (..\Hardware\EXTI\exti.h)(0x622AA6D3)
+I (..\Hardware\TIMER\timer14.h)(0x628318AE)
+I (..\Hardware\WATERLEVEL\waterlevel.h)(0x6281BF3B)
+I (..\Hardware\TM1650\tm1650.h)(0x62348A69)
+I (..\Hardware\KEY\key.h)(0x627F6AAF)
+I (..\Hardware\MSGQUEUE\msgqueue.h)(0x625E082C)
+I (..\Hardware\GD32FLASH\gd32flash.h)(0x62551376)
+I (..\Hardware\USART\usart1.h)(0x6281A161)
+I (..\Hardware\RFID_COMM\rfid_data.h)(0x6281A18D)
+I (..\Hardware\TIMER\timer15.h)(0x624FC375)
+I (..\Hardware\VALVE\valve.h)(0x6253C9DF)
+F (..\Hardware\TIMER\timer14.c)(0x62860505)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -I ../Libraries/Include -I ../User -I ../CMSIS -I ../Hardware/DEFINE -I ../Hardware/BSP -I ../Hardware/MULTITASK -I ../Hardware/VECTOR -I ../Hardware/LED -I ../Hardware/QUEUE -I ../Hardware/PCMODEL -I ../Hardware/USART -I ../Hardware/MDU_COMM -I ../Hardware/TIMER -I ../Hardware/MOTOR -I ../Hardware/ADC -I ../Hardware/EXTI -I ../Hardware/WATERLEVEL -I ../Hardware/TM1650 -I ../Hardware/KEY -I ../Hardware/MSGQUEUE -I ../Hardware/GD32FLASH -I ../Hardware/RFID_COMM -I ../Hardware/VALVE-ID:/anzhuanglujing/GigaDevice/GD32E23x_DFP/1.0.0/Device/Include-ID:/anzhuanglujing/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DGD32E23x -DGD32E230-o ./objects/timer14.o -MD)
+I (..\Hardware\DEFINE\define.h)(0x6281A0D5)
+I (..\CMSIS\gd32e23x.h)(0x5DF1A6B2)
+I (..\CMSIS\core_cm23.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\stdint.h)(0x6275305E)
+I (..\CMSIS\cmsis_version.h)(0x5E8ED122)
+I (..\CMSIS\cmsis_compiler.h)(0x5E8306C2)
+I (..\CMSIS\cmsis_armclang.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_compat.h)(0x5EE12742)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_acle.h)(0x5F268738)
+I (..\CMSIS\system_gd32e23x.h)(0x5DF1A6B2)
+I (..\User\gd32e23x_libopt.h)(0x5E0DBAB8)
+I (..\Libraries\Include\gd32e23x_adc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_crc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dbg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dma.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_exti.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fmc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_gpio.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_syscfg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_i2c.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_pmu.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_rcu.h)(0x5E659AAC)
+I (..\Libraries\Include\gd32e23x_rtc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_spi.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_timer.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_usart.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_wwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_misc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_cmp.h)(0x5DF1A6B2)
+I (..\User\systick.h)(0x62342AB1)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\stdio.h)(0x5F36D0B4)
+I (..\User\main.h)(0x620DFF1E)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\string.h)(0x5F36D0A4)
+I (..\Hardware\BSP\bsp.h)(0x620E05B7)
+I (..\Hardware\MULTITASK\multitask.h)(0x623AD219)
+I (..\Hardware\VECTOR\vector.h)(0x620F0B54)
+I (..\Hardware\LED\led.h)(0x620F51FC)
+I (..\Hardware\QUEUE\queue.h)(0x62411199)
+I (..\Hardware\PCMODEL\pcmodel.h)(0x6228A46B)
+I (..\Hardware\USART\usart0.h)(0x62819F35)
+I (..\Hardware\MDU_COMM\mdu_data.h)(0x6281A11C)
+I (..\Hardware\USART\uart_timer_recv.h)(0x6224945D)
+I (..\Hardware\MDU_COMM\comm_snd.h)(0x624D9B28)
+I (..\Hardware\TIMER\timer2.h)(0x62579BEA)
+I (..\Hardware\MOTOR\motor.h)(0x62579BAF)
+I (..\Hardware\ADC\adc.h)(0x6281A68F)
+I (..\Hardware\EXTI\exti.h)(0x622AA6D3)
+I (..\Hardware\TIMER\timer14.h)(0x628318AE)
+I (..\Hardware\WATERLEVEL\waterlevel.h)(0x6281BF3B)
+I (..\Hardware\TM1650\tm1650.h)(0x62348A69)
+I (..\Hardware\KEY\key.h)(0x627F6AAF)
+I (..\Hardware\MSGQUEUE\msgqueue.h)(0x625E082C)
+I (..\Hardware\GD32FLASH\gd32flash.h)(0x62551376)
+I (..\Hardware\USART\usart1.h)(0x6281A161)
+I (..\Hardware\RFID_COMM\rfid_data.h)(0x6281A18D)
+I (..\Hardware\TIMER\timer15.h)(0x624FC375)
+I (..\Hardware\VALVE\valve.h)(0x6253C9DF)
+F (..\Hardware\WATERLEVEL\waterlevel.c)(0x62663809)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -I ../Libraries/Include -I ../User -I ../CMSIS -I ../Hardware/DEFINE -I ../Hardware/BSP -I ../Hardware/MULTITASK -I ../Hardware/VECTOR -I ../Hardware/LED -I ../Hardware/QUEUE -I ../Hardware/PCMODEL -I ../Hardware/USART -I ../Hardware/MDU_COMM -I ../Hardware/TIMER -I ../Hardware/MOTOR -I ../Hardware/ADC -I ../Hardware/EXTI -I ../Hardware/WATERLEVEL -I ../Hardware/TM1650 -I ../Hardware/KEY -I ../Hardware/MSGQUEUE -I ../Hardware/GD32FLASH -I ../Hardware/RFID_COMM -I ../Hardware/VALVE-ID:/anzhuanglujing/GigaDevice/GD32E23x_DFP/1.0.0/Device/Include-ID:/anzhuanglujing/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DGD32E23x -DGD32E230-o ./objects/waterlevel.o -MD)
+I (..\Hardware\DEFINE\define.h)(0x6281A0D5)
+I (..\CMSIS\gd32e23x.h)(0x5DF1A6B2)
+I (..\CMSIS\core_cm23.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\stdint.h)(0x6275305E)
+I (..\CMSIS\cmsis_version.h)(0x5E8ED122)
+I (..\CMSIS\cmsis_compiler.h)(0x5E8306C2)
+I (..\CMSIS\cmsis_armclang.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_compat.h)(0x5EE12742)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_acle.h)(0x5F268738)
+I (..\CMSIS\system_gd32e23x.h)(0x5DF1A6B2)
+I (..\User\gd32e23x_libopt.h)(0x5E0DBAB8)
+I (..\Libraries\Include\gd32e23x_adc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_crc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dbg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dma.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_exti.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fmc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_gpio.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_syscfg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_i2c.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_pmu.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_rcu.h)(0x5E659AAC)
+I (..\Libraries\Include\gd32e23x_rtc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_spi.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_timer.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_usart.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_wwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_misc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_cmp.h)(0x5DF1A6B2)
+I (..\User\systick.h)(0x62342AB1)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\stdio.h)(0x5F36D0B4)
+I (..\User\main.h)(0x620DFF1E)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\string.h)(0x5F36D0A4)
+I (..\Hardware\BSP\bsp.h)(0x620E05B7)
+I (..\Hardware\MULTITASK\multitask.h)(0x623AD219)
+I (..\Hardware\VECTOR\vector.h)(0x620F0B54)
+I (..\Hardware\LED\led.h)(0x620F51FC)
+I (..\Hardware\QUEUE\queue.h)(0x62411199)
+I (..\Hardware\PCMODEL\pcmodel.h)(0x6228A46B)
+I (..\Hardware\USART\usart0.h)(0x62819F35)
+I (..\Hardware\MDU_COMM\mdu_data.h)(0x6281A11C)
+I (..\Hardware\USART\uart_timer_recv.h)(0x6224945D)
+I (..\Hardware\MDU_COMM\comm_snd.h)(0x624D9B28)
+I (..\Hardware\TIMER\timer2.h)(0x62579BEA)
+I (..\Hardware\MOTOR\motor.h)(0x62579BAF)
+I (..\Hardware\ADC\adc.h)(0x6281A68F)
+I (..\Hardware\EXTI\exti.h)(0x622AA6D3)
+I (..\Hardware\TIMER\timer14.h)(0x628318AE)
+I (..\Hardware\WATERLEVEL\waterlevel.h)(0x6281BF3B)
+I (..\Hardware\TM1650\tm1650.h)(0x62348A69)
+I (..\Hardware\KEY\key.h)(0x627F6AAF)
+I (..\Hardware\MSGQUEUE\msgqueue.h)(0x625E082C)
+I (..\Hardware\GD32FLASH\gd32flash.h)(0x62551376)
+I (..\Hardware\USART\usart1.h)(0x6281A161)
+I (..\Hardware\RFID_COMM\rfid_data.h)(0x6281A18D)
+I (..\Hardware\TIMER\timer15.h)(0x624FC375)
+I (..\Hardware\VALVE\valve.h)(0x6253C9DF)
+F (..\Hardware\TM1650\tm1650.c)(0x6236F30B)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -I ../Libraries/Include -I ../User -I ../CMSIS -I ../Hardware/DEFINE -I ../Hardware/BSP -I ../Hardware/MULTITASK -I ../Hardware/VECTOR -I ../Hardware/LED -I ../Hardware/QUEUE -I ../Hardware/PCMODEL -I ../Hardware/USART -I ../Hardware/MDU_COMM -I ../Hardware/TIMER -I ../Hardware/MOTOR -I ../Hardware/ADC -I ../Hardware/EXTI -I ../Hardware/WATERLEVEL -I ../Hardware/TM1650 -I ../Hardware/KEY -I ../Hardware/MSGQUEUE -I ../Hardware/GD32FLASH -I ../Hardware/RFID_COMM -I ../Hardware/VALVE-ID:/anzhuanglujing/GigaDevice/GD32E23x_DFP/1.0.0/Device/Include-ID:/anzhuanglujing/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DGD32E23x -DGD32E230-o ./objects/tm1650.o -MD)
+I (..\Hardware\DEFINE\define.h)(0x6281A0D5)
+I (..\CMSIS\gd32e23x.h)(0x5DF1A6B2)
+I (..\CMSIS\core_cm23.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\stdint.h)(0x6275305E)
+I (..\CMSIS\cmsis_version.h)(0x5E8ED122)
+I (..\CMSIS\cmsis_compiler.h)(0x5E8306C2)
+I (..\CMSIS\cmsis_armclang.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_compat.h)(0x5EE12742)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_acle.h)(0x5F268738)
+I (..\CMSIS\system_gd32e23x.h)(0x5DF1A6B2)
+I (..\User\gd32e23x_libopt.h)(0x5E0DBAB8)
+I (..\Libraries\Include\gd32e23x_adc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_crc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dbg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dma.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_exti.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fmc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_gpio.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_syscfg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_i2c.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_pmu.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_rcu.h)(0x5E659AAC)
+I (..\Libraries\Include\gd32e23x_rtc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_spi.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_timer.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_usart.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_wwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_misc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_cmp.h)(0x5DF1A6B2)
+I (..\User\systick.h)(0x62342AB1)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\stdio.h)(0x5F36D0B4)
+I (..\User\main.h)(0x620DFF1E)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\string.h)(0x5F36D0A4)
+I (..\Hardware\BSP\bsp.h)(0x620E05B7)
+I (..\Hardware\MULTITASK\multitask.h)(0x623AD219)
+I (..\Hardware\VECTOR\vector.h)(0x620F0B54)
+I (..\Hardware\LED\led.h)(0x620F51FC)
+I (..\Hardware\QUEUE\queue.h)(0x62411199)
+I (..\Hardware\PCMODEL\pcmodel.h)(0x6228A46B)
+I (..\Hardware\USART\usart0.h)(0x62819F35)
+I (..\Hardware\MDU_COMM\mdu_data.h)(0x6281A11C)
+I (..\Hardware\USART\uart_timer_recv.h)(0x6224945D)
+I (..\Hardware\MDU_COMM\comm_snd.h)(0x624D9B28)
+I (..\Hardware\TIMER\timer2.h)(0x62579BEA)
+I (..\Hardware\MOTOR\motor.h)(0x62579BAF)
+I (..\Hardware\ADC\adc.h)(0x6281A68F)
+I (..\Hardware\EXTI\exti.h)(0x622AA6D3)
+I (..\Hardware\TIMER\timer14.h)(0x628318AE)
+I (..\Hardware\WATERLEVEL\waterlevel.h)(0x6281BF3B)
+I (..\Hardware\TM1650\tm1650.h)(0x62348A69)
+I (..\Hardware\KEY\key.h)(0x627F6AAF)
+I (..\Hardware\MSGQUEUE\msgqueue.h)(0x625E082C)
+I (..\Hardware\GD32FLASH\gd32flash.h)(0x62551376)
+I (..\Hardware\USART\usart1.h)(0x6281A161)
+I (..\Hardware\RFID_COMM\rfid_data.h)(0x6281A18D)
+I (..\Hardware\TIMER\timer15.h)(0x624FC375)
+I (..\Hardware\VALVE\valve.h)(0x6253C9DF)
+F (..\Hardware\KEY\key.c)(0x627F6B48)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -I ../Libraries/Include -I ../User -I ../CMSIS -I ../Hardware/DEFINE -I ../Hardware/BSP -I ../Hardware/MULTITASK -I ../Hardware/VECTOR -I ../Hardware/LED -I ../Hardware/QUEUE -I ../Hardware/PCMODEL -I ../Hardware/USART -I ../Hardware/MDU_COMM -I ../Hardware/TIMER -I ../Hardware/MOTOR -I ../Hardware/ADC -I ../Hardware/EXTI -I ../Hardware/WATERLEVEL -I ../Hardware/TM1650 -I ../Hardware/KEY -I ../Hardware/MSGQUEUE -I ../Hardware/GD32FLASH -I ../Hardware/RFID_COMM -I ../Hardware/VALVE-ID:/anzhuanglujing/GigaDevice/GD32E23x_DFP/1.0.0/Device/Include-ID:/anzhuanglujing/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DGD32E23x -DGD32E230-o ./objects/key.o -MD)
+I (..\Hardware\DEFINE\define.h)(0x6281A0D5)
+I (..\CMSIS\gd32e23x.h)(0x5DF1A6B2)
+I (..\CMSIS\core_cm23.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\stdint.h)(0x6275305E)
+I (..\CMSIS\cmsis_version.h)(0x5E8ED122)
+I (..\CMSIS\cmsis_compiler.h)(0x5E8306C2)
+I (..\CMSIS\cmsis_armclang.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_compat.h)(0x5EE12742)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_acle.h)(0x5F268738)
+I (..\CMSIS\system_gd32e23x.h)(0x5DF1A6B2)
+I (..\User\gd32e23x_libopt.h)(0x5E0DBAB8)
+I (..\Libraries\Include\gd32e23x_adc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_crc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dbg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dma.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_exti.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fmc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_gpio.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_syscfg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_i2c.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_pmu.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_rcu.h)(0x5E659AAC)
+I (..\Libraries\Include\gd32e23x_rtc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_spi.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_timer.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_usart.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_wwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_misc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_cmp.h)(0x5DF1A6B2)
+I (..\User\systick.h)(0x62342AB1)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\stdio.h)(0x5F36D0B4)
+I (..\User\main.h)(0x620DFF1E)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\string.h)(0x5F36D0A4)
+I (..\Hardware\BSP\bsp.h)(0x620E05B7)
+I (..\Hardware\MULTITASK\multitask.h)(0x623AD219)
+I (..\Hardware\VECTOR\vector.h)(0x620F0B54)
+I (..\Hardware\LED\led.h)(0x620F51FC)
+I (..\Hardware\QUEUE\queue.h)(0x62411199)
+I (..\Hardware\PCMODEL\pcmodel.h)(0x6228A46B)
+I (..\Hardware\USART\usart0.h)(0x62819F35)
+I (..\Hardware\MDU_COMM\mdu_data.h)(0x6281A11C)
+I (..\Hardware\USART\uart_timer_recv.h)(0x6224945D)
+I (..\Hardware\MDU_COMM\comm_snd.h)(0x624D9B28)
+I (..\Hardware\TIMER\timer2.h)(0x62579BEA)
+I (..\Hardware\MOTOR\motor.h)(0x62579BAF)
+I (..\Hardware\ADC\adc.h)(0x6281A68F)
+I (..\Hardware\EXTI\exti.h)(0x622AA6D3)
+I (..\Hardware\TIMER\timer14.h)(0x628318AE)
+I (..\Hardware\WATERLEVEL\waterlevel.h)(0x6281BF3B)
+I (..\Hardware\TM1650\tm1650.h)(0x62348A69)
+I (..\Hardware\KEY\key.h)(0x627F6AAF)
+I (..\Hardware\MSGQUEUE\msgqueue.h)(0x625E082C)
+I (..\Hardware\GD32FLASH\gd32flash.h)(0x62551376)
+I (..\Hardware\USART\usart1.h)(0x6281A161)
+I (..\Hardware\RFID_COMM\rfid_data.h)(0x6281A18D)
+I (..\Hardware\TIMER\timer15.h)(0x624FC375)
+I (..\Hardware\VALVE\valve.h)(0x6253C9DF)
+I (..\User\gd32e23x_it.h)(0x623AFC9E)
+F (..\Hardware\MSGQUEUE\msgqueue.c)(0x625D4F9E)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -I ../Libraries/Include -I ../User -I ../CMSIS -I ../Hardware/DEFINE -I ../Hardware/BSP -I ../Hardware/MULTITASK -I ../Hardware/VECTOR -I ../Hardware/LED -I ../Hardware/QUEUE -I ../Hardware/PCMODEL -I ../Hardware/USART -I ../Hardware/MDU_COMM -I ../Hardware/TIMER -I ../Hardware/MOTOR -I ../Hardware/ADC -I ../Hardware/EXTI -I ../Hardware/WATERLEVEL -I ../Hardware/TM1650 -I ../Hardware/KEY -I ../Hardware/MSGQUEUE -I ../Hardware/GD32FLASH -I ../Hardware/RFID_COMM -I ../Hardware/VALVE-ID:/anzhuanglujing/GigaDevice/GD32E23x_DFP/1.0.0/Device/Include-ID:/anzhuanglujing/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DGD32E23x -DGD32E230-o ./objects/msgqueue.o -MD)
+I (..\Hardware\DEFINE\define.h)(0x6281A0D5)
+I (..\CMSIS\gd32e23x.h)(0x5DF1A6B2)
+I (..\CMSIS\core_cm23.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\stdint.h)(0x6275305E)
+I (..\CMSIS\cmsis_version.h)(0x5E8ED122)
+I (..\CMSIS\cmsis_compiler.h)(0x5E8306C2)
+I (..\CMSIS\cmsis_armclang.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_compat.h)(0x5EE12742)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_acle.h)(0x5F268738)
+I (..\CMSIS\system_gd32e23x.h)(0x5DF1A6B2)
+I (..\User\gd32e23x_libopt.h)(0x5E0DBAB8)
+I (..\Libraries\Include\gd32e23x_adc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_crc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dbg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dma.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_exti.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fmc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_gpio.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_syscfg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_i2c.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_pmu.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_rcu.h)(0x5E659AAC)
+I (..\Libraries\Include\gd32e23x_rtc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_spi.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_timer.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_usart.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_wwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_misc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_cmp.h)(0x5DF1A6B2)
+I (..\User\systick.h)(0x62342AB1)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\stdio.h)(0x5F36D0B4)
+I (..\User\main.h)(0x620DFF1E)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\string.h)(0x5F36D0A4)
+I (..\Hardware\BSP\bsp.h)(0x620E05B7)
+I (..\Hardware\MULTITASK\multitask.h)(0x623AD219)
+I (..\Hardware\VECTOR\vector.h)(0x620F0B54)
+I (..\Hardware\LED\led.h)(0x620F51FC)
+I (..\Hardware\QUEUE\queue.h)(0x62411199)
+I (..\Hardware\PCMODEL\pcmodel.h)(0x6228A46B)
+I (..\Hardware\USART\usart0.h)(0x62819F35)
+I (..\Hardware\MDU_COMM\mdu_data.h)(0x6281A11C)
+I (..\Hardware\USART\uart_timer_recv.h)(0x6224945D)
+I (..\Hardware\MDU_COMM\comm_snd.h)(0x624D9B28)
+I (..\Hardware\TIMER\timer2.h)(0x62579BEA)
+I (..\Hardware\MOTOR\motor.h)(0x62579BAF)
+I (..\Hardware\ADC\adc.h)(0x6281A68F)
+I (..\Hardware\EXTI\exti.h)(0x622AA6D3)
+I (..\Hardware\TIMER\timer14.h)(0x628318AE)
+I (..\Hardware\WATERLEVEL\waterlevel.h)(0x6281BF3B)
+I (..\Hardware\TM1650\tm1650.h)(0x62348A69)
+I (..\Hardware\KEY\key.h)(0x627F6AAF)
+I (..\Hardware\MSGQUEUE\msgqueue.h)(0x625E082C)
+I (..\Hardware\GD32FLASH\gd32flash.h)(0x62551376)
+I (..\Hardware\USART\usart1.h)(0x6281A161)
+I (..\Hardware\RFID_COMM\rfid_data.h)(0x6281A18D)
+I (..\Hardware\TIMER\timer15.h)(0x624FC375)
+I (..\Hardware\VALVE\valve.h)(0x6253C9DF)
+F (..\Hardware\GD32FLASH\gd32flash.c)(0x6258CC18)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -I ../Libraries/Include -I ../User -I ../CMSIS -I ../Hardware/DEFINE -I ../Hardware/BSP -I ../Hardware/MULTITASK -I ../Hardware/VECTOR -I ../Hardware/LED -I ../Hardware/QUEUE -I ../Hardware/PCMODEL -I ../Hardware/USART -I ../Hardware/MDU_COMM -I ../Hardware/TIMER -I ../Hardware/MOTOR -I ../Hardware/ADC -I ../Hardware/EXTI -I ../Hardware/WATERLEVEL -I ../Hardware/TM1650 -I ../Hardware/KEY -I ../Hardware/MSGQUEUE -I ../Hardware/GD32FLASH -I ../Hardware/RFID_COMM -I ../Hardware/VALVE-ID:/anzhuanglujing/GigaDevice/GD32E23x_DFP/1.0.0/Device/Include-ID:/anzhuanglujing/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DGD32E23x -DGD32E230-o ./objects/gd32flash.o -MD)
+I (..\Hardware\DEFINE\define.h)(0x6281A0D5)
+I (..\CMSIS\gd32e23x.h)(0x5DF1A6B2)
+I (..\CMSIS\core_cm23.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\stdint.h)(0x6275305E)
+I (..\CMSIS\cmsis_version.h)(0x5E8ED122)
+I (..\CMSIS\cmsis_compiler.h)(0x5E8306C2)
+I (..\CMSIS\cmsis_armclang.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_compat.h)(0x5EE12742)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_acle.h)(0x5F268738)
+I (..\CMSIS\system_gd32e23x.h)(0x5DF1A6B2)
+I (..\User\gd32e23x_libopt.h)(0x5E0DBAB8)
+I (..\Libraries\Include\gd32e23x_adc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_crc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dbg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dma.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_exti.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fmc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_gpio.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_syscfg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_i2c.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_pmu.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_rcu.h)(0x5E659AAC)
+I (..\Libraries\Include\gd32e23x_rtc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_spi.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_timer.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_usart.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_wwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_misc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_cmp.h)(0x5DF1A6B2)
+I (..\User\systick.h)(0x62342AB1)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\stdio.h)(0x5F36D0B4)
+I (..\User\main.h)(0x620DFF1E)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\string.h)(0x5F36D0A4)
+I (..\Hardware\BSP\bsp.h)(0x620E05B7)
+I (..\Hardware\MULTITASK\multitask.h)(0x623AD219)
+I (..\Hardware\VECTOR\vector.h)(0x620F0B54)
+I (..\Hardware\LED\led.h)(0x620F51FC)
+I (..\Hardware\QUEUE\queue.h)(0x62411199)
+I (..\Hardware\PCMODEL\pcmodel.h)(0x6228A46B)
+I (..\Hardware\USART\usart0.h)(0x62819F35)
+I (..\Hardware\MDU_COMM\mdu_data.h)(0x6281A11C)
+I (..\Hardware\USART\uart_timer_recv.h)(0x6224945D)
+I (..\Hardware\MDU_COMM\comm_snd.h)(0x624D9B28)
+I (..\Hardware\TIMER\timer2.h)(0x62579BEA)
+I (..\Hardware\MOTOR\motor.h)(0x62579BAF)
+I (..\Hardware\ADC\adc.h)(0x6281A68F)
+I (..\Hardware\EXTI\exti.h)(0x622AA6D3)
+I (..\Hardware\TIMER\timer14.h)(0x628318AE)
+I (..\Hardware\WATERLEVEL\waterlevel.h)(0x6281BF3B)
+I (..\Hardware\TM1650\tm1650.h)(0x62348A69)
+I (..\Hardware\KEY\key.h)(0x627F6AAF)
+I (..\Hardware\MSGQUEUE\msgqueue.h)(0x625E082C)
+I (..\Hardware\GD32FLASH\gd32flash.h)(0x62551376)
+I (..\Hardware\USART\usart1.h)(0x6281A161)
+I (..\Hardware\RFID_COMM\rfid_data.h)(0x6281A18D)
+I (..\Hardware\TIMER\timer15.h)(0x624FC375)
+I (..\Hardware\VALVE\valve.h)(0x6253C9DF)
+F (..\Hardware\USART\usart1.c)(0x6281A161)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -I ../Libraries/Include -I ../User -I ../CMSIS -I ../Hardware/DEFINE -I ../Hardware/BSP -I ../Hardware/MULTITASK -I ../Hardware/VECTOR -I ../Hardware/LED -I ../Hardware/QUEUE -I ../Hardware/PCMODEL -I ../Hardware/USART -I ../Hardware/MDU_COMM -I ../Hardware/TIMER -I ../Hardware/MOTOR -I ../Hardware/ADC -I ../Hardware/EXTI -I ../Hardware/WATERLEVEL -I ../Hardware/TM1650 -I ../Hardware/KEY -I ../Hardware/MSGQUEUE -I ../Hardware/GD32FLASH -I ../Hardware/RFID_COMM -I ../Hardware/VALVE-ID:/anzhuanglujing/GigaDevice/GD32E23x_DFP/1.0.0/Device/Include-ID:/anzhuanglujing/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DGD32E23x -DGD32E230-o ./objects/usart1.o -MD)
+I (..\Hardware\DEFINE\define.h)(0x6281A0D5)
+I (..\CMSIS\gd32e23x.h)(0x5DF1A6B2)
+I (..\CMSIS\core_cm23.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\stdint.h)(0x6275305E)
+I (..\CMSIS\cmsis_version.h)(0x5E8ED122)
+I (..\CMSIS\cmsis_compiler.h)(0x5E8306C2)
+I (..\CMSIS\cmsis_armclang.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_compat.h)(0x5EE12742)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_acle.h)(0x5F268738)
+I (..\CMSIS\system_gd32e23x.h)(0x5DF1A6B2)
+I (..\User\gd32e23x_libopt.h)(0x5E0DBAB8)
+I (..\Libraries\Include\gd32e23x_adc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_crc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dbg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dma.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_exti.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fmc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_gpio.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_syscfg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_i2c.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_pmu.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_rcu.h)(0x5E659AAC)
+I (..\Libraries\Include\gd32e23x_rtc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_spi.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_timer.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_usart.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_wwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_misc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_cmp.h)(0x5DF1A6B2)
+I (..\User\systick.h)(0x62342AB1)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\stdio.h)(0x5F36D0B4)
+I (..\User\main.h)(0x620DFF1E)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\string.h)(0x5F36D0A4)
+I (..\Hardware\BSP\bsp.h)(0x620E05B7)
+I (..\Hardware\MULTITASK\multitask.h)(0x623AD219)
+I (..\Hardware\VECTOR\vector.h)(0x620F0B54)
+I (..\Hardware\LED\led.h)(0x620F51FC)
+I (..\Hardware\QUEUE\queue.h)(0x62411199)
+I (..\Hardware\PCMODEL\pcmodel.h)(0x6228A46B)
+I (..\Hardware\USART\usart0.h)(0x62819F35)
+I (..\Hardware\MDU_COMM\mdu_data.h)(0x6281A11C)
+I (..\Hardware\USART\uart_timer_recv.h)(0x6224945D)
+I (..\Hardware\MDU_COMM\comm_snd.h)(0x624D9B28)
+I (..\Hardware\TIMER\timer2.h)(0x62579BEA)
+I (..\Hardware\MOTOR\motor.h)(0x62579BAF)
+I (..\Hardware\ADC\adc.h)(0x6281A68F)
+I (..\Hardware\EXTI\exti.h)(0x622AA6D3)
+I (..\Hardware\TIMER\timer14.h)(0x628318AE)
+I (..\Hardware\WATERLEVEL\waterlevel.h)(0x6281BF3B)
+I (..\Hardware\TM1650\tm1650.h)(0x62348A69)
+I (..\Hardware\KEY\key.h)(0x627F6AAF)
+I (..\Hardware\MSGQUEUE\msgqueue.h)(0x625E082C)
+I (..\Hardware\GD32FLASH\gd32flash.h)(0x62551376)
+I (..\Hardware\USART\usart1.h)(0x6281A161)
+I (..\Hardware\RFID_COMM\rfid_data.h)(0x6281A18D)
+I (..\Hardware\TIMER\timer15.h)(0x624FC375)
+I (..\Hardware\VALVE\valve.h)(0x6253C9DF)
+F (..\Hardware\RFID_COMM\rfid_data.c)(0x6281ED26)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -I ../Libraries/Include -I ../User -I ../CMSIS -I ../Hardware/DEFINE -I ../Hardware/BSP -I ../Hardware/MULTITASK -I ../Hardware/VECTOR -I ../Hardware/LED -I ../Hardware/QUEUE -I ../Hardware/PCMODEL -I ../Hardware/USART -I ../Hardware/MDU_COMM -I ../Hardware/TIMER -I ../Hardware/MOTOR -I ../Hardware/ADC -I ../Hardware/EXTI -I ../Hardware/WATERLEVEL -I ../Hardware/TM1650 -I ../Hardware/KEY -I ../Hardware/MSGQUEUE -I ../Hardware/GD32FLASH -I ../Hardware/RFID_COMM -I ../Hardware/VALVE-ID:/anzhuanglujing/GigaDevice/GD32E23x_DFP/1.0.0/Device/Include-ID:/anzhuanglujing/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DGD32E23x -DGD32E230-o ./objects/rfid_data.o -MD)
+I (..\Hardware\DEFINE\define.h)(0x6281A0D5)
+I (..\CMSIS\gd32e23x.h)(0x5DF1A6B2)
+I (..\CMSIS\core_cm23.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\stdint.h)(0x6275305E)
+I (..\CMSIS\cmsis_version.h)(0x5E8ED122)
+I (..\CMSIS\cmsis_compiler.h)(0x5E8306C2)
+I (..\CMSIS\cmsis_armclang.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_compat.h)(0x5EE12742)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_acle.h)(0x5F268738)
+I (..\CMSIS\system_gd32e23x.h)(0x5DF1A6B2)
+I (..\User\gd32e23x_libopt.h)(0x5E0DBAB8)
+I (..\Libraries\Include\gd32e23x_adc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_crc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dbg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dma.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_exti.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fmc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_gpio.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_syscfg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_i2c.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_pmu.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_rcu.h)(0x5E659AAC)
+I (..\Libraries\Include\gd32e23x_rtc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_spi.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_timer.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_usart.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_wwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_misc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_cmp.h)(0x5DF1A6B2)
+I (..\User\systick.h)(0x62342AB1)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\stdio.h)(0x5F36D0B4)
+I (..\User\main.h)(0x620DFF1E)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\string.h)(0x5F36D0A4)
+I (..\Hardware\BSP\bsp.h)(0x620E05B7)
+I (..\Hardware\MULTITASK\multitask.h)(0x623AD219)
+I (..\Hardware\VECTOR\vector.h)(0x620F0B54)
+I (..\Hardware\LED\led.h)(0x620F51FC)
+I (..\Hardware\QUEUE\queue.h)(0x62411199)
+I (..\Hardware\PCMODEL\pcmodel.h)(0x6228A46B)
+I (..\Hardware\USART\usart0.h)(0x62819F35)
+I (..\Hardware\MDU_COMM\mdu_data.h)(0x6281A11C)
+I (..\Hardware\USART\uart_timer_recv.h)(0x6224945D)
+I (..\Hardware\MDU_COMM\comm_snd.h)(0x624D9B28)
+I (..\Hardware\TIMER\timer2.h)(0x62579BEA)
+I (..\Hardware\MOTOR\motor.h)(0x62579BAF)
+I (..\Hardware\ADC\adc.h)(0x6281A68F)
+I (..\Hardware\EXTI\exti.h)(0x622AA6D3)
+I (..\Hardware\TIMER\timer14.h)(0x628318AE)
+I (..\Hardware\WATERLEVEL\waterlevel.h)(0x6281BF3B)
+I (..\Hardware\TM1650\tm1650.h)(0x62348A69)
+I (..\Hardware\KEY\key.h)(0x627F6AAF)
+I (..\Hardware\MSGQUEUE\msgqueue.h)(0x625E082C)
+I (..\Hardware\GD32FLASH\gd32flash.h)(0x62551376)
+I (..\Hardware\USART\usart1.h)(0x6281A161)
+I (..\Hardware\RFID_COMM\rfid_data.h)(0x6281A18D)
+I (..\Hardware\TIMER\timer15.h)(0x624FC375)
+I (..\Hardware\VALVE\valve.h)(0x6253C9DF)
+F (..\Hardware\TIMER\timer15.c)(0x6280949F)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -I ../Libraries/Include -I ../User -I ../CMSIS -I ../Hardware/DEFINE -I ../Hardware/BSP -I ../Hardware/MULTITASK -I ../Hardware/VECTOR -I ../Hardware/LED -I ../Hardware/QUEUE -I ../Hardware/PCMODEL -I ../Hardware/USART -I ../Hardware/MDU_COMM -I ../Hardware/TIMER -I ../Hardware/MOTOR -I ../Hardware/ADC -I ../Hardware/EXTI -I ../Hardware/WATERLEVEL -I ../Hardware/TM1650 -I ../Hardware/KEY -I ../Hardware/MSGQUEUE -I ../Hardware/GD32FLASH -I ../Hardware/RFID_COMM -I ../Hardware/VALVE-ID:/anzhuanglujing/GigaDevice/GD32E23x_DFP/1.0.0/Device/Include-ID:/anzhuanglujing/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DGD32E23x -DGD32E230-o ./objects/timer15.o -MD)
+I (..\Hardware\DEFINE\define.h)(0x6281A0D5)
+I (..\CMSIS\gd32e23x.h)(0x5DF1A6B2)
+I (..\CMSIS\core_cm23.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\stdint.h)(0x6275305E)
+I (..\CMSIS\cmsis_version.h)(0x5E8ED122)
+I (..\CMSIS\cmsis_compiler.h)(0x5E8306C2)
+I (..\CMSIS\cmsis_armclang.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_compat.h)(0x5EE12742)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_acle.h)(0x5F268738)
+I (..\CMSIS\system_gd32e23x.h)(0x5DF1A6B2)
+I (..\User\gd32e23x_libopt.h)(0x5E0DBAB8)
+I (..\Libraries\Include\gd32e23x_adc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_crc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dbg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dma.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_exti.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fmc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_gpio.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_syscfg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_i2c.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_pmu.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_rcu.h)(0x5E659AAC)
+I (..\Libraries\Include\gd32e23x_rtc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_spi.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_timer.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_usart.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_wwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_misc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_cmp.h)(0x5DF1A6B2)
+I (..\User\systick.h)(0x62342AB1)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\stdio.h)(0x5F36D0B4)
+I (..\User\main.h)(0x620DFF1E)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\string.h)(0x5F36D0A4)
+I (..\Hardware\BSP\bsp.h)(0x620E05B7)
+I (..\Hardware\MULTITASK\multitask.h)(0x623AD219)
+I (..\Hardware\VECTOR\vector.h)(0x620F0B54)
+I (..\Hardware\LED\led.h)(0x620F51FC)
+I (..\Hardware\QUEUE\queue.h)(0x62411199)
+I (..\Hardware\PCMODEL\pcmodel.h)(0x6228A46B)
+I (..\Hardware\USART\usart0.h)(0x62819F35)
+I (..\Hardware\MDU_COMM\mdu_data.h)(0x6281A11C)
+I (..\Hardware\USART\uart_timer_recv.h)(0x6224945D)
+I (..\Hardware\MDU_COMM\comm_snd.h)(0x624D9B28)
+I (..\Hardware\TIMER\timer2.h)(0x62579BEA)
+I (..\Hardware\MOTOR\motor.h)(0x62579BAF)
+I (..\Hardware\ADC\adc.h)(0x6281A68F)
+I (..\Hardware\EXTI\exti.h)(0x622AA6D3)
+I (..\Hardware\TIMER\timer14.h)(0x628318AE)
+I (..\Hardware\WATERLEVEL\waterlevel.h)(0x6281BF3B)
+I (..\Hardware\TM1650\tm1650.h)(0x62348A69)
+I (..\Hardware\KEY\key.h)(0x627F6AAF)
+I (..\Hardware\MSGQUEUE\msgqueue.h)(0x625E082C)
+I (..\Hardware\GD32FLASH\gd32flash.h)(0x62551376)
+I (..\Hardware\USART\usart1.h)(0x6281A161)
+I (..\Hardware\RFID_COMM\rfid_data.h)(0x6281A18D)
+I (..\Hardware\TIMER\timer15.h)(0x624FC375)
+I (..\Hardware\VALVE\valve.h)(0x6253C9DF)
+F (..\Hardware\VALVE\valve.c)(0x6253C2FE)(-xc -std=gnu11 --target=arm-arm-none-eabi -mcpu=cortex-m23 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-3 -Oz -ffunction-sections -I ../Libraries/Include -I ../User -I ../CMSIS -I ../Hardware/DEFINE -I ../Hardware/BSP -I ../Hardware/MULTITASK -I ../Hardware/VECTOR -I ../Hardware/LED -I ../Hardware/QUEUE -I ../Hardware/PCMODEL -I ../Hardware/USART -I ../Hardware/MDU_COMM -I ../Hardware/TIMER -I ../Hardware/MOTOR -I ../Hardware/ADC -I ../Hardware/EXTI -I ../Hardware/WATERLEVEL -I ../Hardware/TM1650 -I ../Hardware/KEY -I ../Hardware/MSGQUEUE -I ../Hardware/GD32FLASH -I ../Hardware/RFID_COMM -I ../Hardware/VALVE-ID:/anzhuanglujing/GigaDevice/GD32E23x_DFP/1.0.0/Device/Include-ID:/anzhuanglujing/ARM/CMSIS/Include-D__UVISION_VERSION="533" -DGD32E23x -DGD32E230-o ./objects/valve.o -MD)
+I (..\Hardware\DEFINE\define.h)(0x6281A0D5)
+I (..\CMSIS\gd32e23x.h)(0x5DF1A6B2)
+I (..\CMSIS\core_cm23.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\stdint.h)(0x6275305E)
+I (..\CMSIS\cmsis_version.h)(0x5E8ED122)
+I (..\CMSIS\cmsis_compiler.h)(0x5E8306C2)
+I (..\CMSIS\cmsis_armclang.h)(0x5E8ED122)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_compat.h)(0x5EE12742)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\arm_acle.h)(0x5F268738)
+I (..\CMSIS\system_gd32e23x.h)(0x5DF1A6B2)
+I (..\User\gd32e23x_libopt.h)(0x5E0DBAB8)
+I (..\Libraries\Include\gd32e23x_adc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_crc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dbg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_dma.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_exti.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fmc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_gpio.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_syscfg.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_i2c.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_fwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_pmu.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_rcu.h)(0x5E659AAC)
+I (..\Libraries\Include\gd32e23x_rtc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_spi.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_timer.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_usart.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_wwdgt.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_misc.h)(0x5DF1A6B2)
+I (..\Libraries\Include\gd32e23x_cmp.h)(0x5DF1A6B2)
+I (..\User\systick.h)(0x62342AB1)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\stdio.h)(0x5F36D0B4)
+I (..\User\main.h)(0x620DFF1E)
+I (D:\anzhuanglujing\ARM\ARMCLANG\include\string.h)(0x5F36D0A4)
+I (..\Hardware\BSP\bsp.h)(0x620E05B7)
+I (..\Hardware\MULTITASK\multitask.h)(0x623AD219)
+I (..\Hardware\VECTOR\vector.h)(0x620F0B54)
+I (..\Hardware\LED\led.h)(0x620F51FC)
+I (..\Hardware\QUEUE\queue.h)(0x62411199)
+I (..\Hardware\PCMODEL\pcmodel.h)(0x6228A46B)
+I (..\Hardware\USART\usart0.h)(0x62819F35)
+I (..\Hardware\MDU_COMM\mdu_data.h)(0x6281A11C)
+I (..\Hardware\USART\uart_timer_recv.h)(0x6224945D)
+I (..\Hardware\MDU_COMM\comm_snd.h)(0x624D9B28)
+I (..\Hardware\TIMER\timer2.h)(0x62579BEA)
+I (..\Hardware\MOTOR\motor.h)(0x62579BAF)
+I (..\Hardware\ADC\adc.h)(0x6281A68F)
+I (..\Hardware\EXTI\exti.h)(0x622AA6D3)
+I (..\Hardware\TIMER\timer14.h)(0x628318AE)
+I (..\Hardware\WATERLEVEL\waterlevel.h)(0x6281BF3B)
+I (..\Hardware\TM1650\tm1650.h)(0x62348A69)
+I (..\Hardware\KEY\key.h)(0x627F6AAF)
+I (..\Hardware\MSGQUEUE\msgqueue.h)(0x625E082C)
+I (..\Hardware\GD32FLASH\gd32flash.h)(0x62551376)
+I (..\Hardware\USART\usart1.h)(0x6281A161)
+I (..\Hardware\RFID_COMM\rfid_data.h)(0x6281A18D)
+I (..\Hardware\TIMER\timer15.h)(0x624FC375)
+I (..\Hardware\VALVE\valve.h)(0x6253C9DF)
