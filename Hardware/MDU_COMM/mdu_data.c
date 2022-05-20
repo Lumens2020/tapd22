@@ -114,19 +114,19 @@ void Mdu_Data_Rx_Exe_Func(void)
 			 /*±£Œ¬…Ë∂®*/	
 			 if( ( MduDataRx.DATA.CommandType == 0x02 )&&( MduDataRx.DATA.KeepTempSet == 0x01) )
 			{
-				  Mdu_Data_Auto_Update(ProData3,1,TRUE);
+				 
 //				  DeviceInfor.InControl.Keep.Temp95   = KEEP_TEMP_95C;
 				  DeviceInfor.InControl.Keep.SetTemp  = KEEP_TEMP_95C;
 			}
 			else if( ( MduDataRx.DATA.CommandType == 0x02 )&&( MduDataRx.DATA.KeepTempSet == 0x02) )
 			{
-				  Mdu_Data_Auto_Update(ProData3,1,TRUE);
+				 
 //				  DeviceInfor.InControl.Keep.Temp60   = KEEP_TEMP_60C;
 				  DeviceInfor.InControl.Keep.SetTemp  = KEEP_TEMP_60C;
 			}
 			else if( ( MduDataRx.DATA.CommandType == 0x02 )&&( MduDataRx.DATA.KeepTempSet == 0x03) )
 			{
-				  Mdu_Data_Auto_Update(ProData3,1,TRUE);
+				
 //				  DeviceInfor.InControl.Keep.Temp45   = KEEP_TEMP_45C;	 
           DeviceInfor.InControl.Keep.SetTemp  = KEEP_TEMP_45C;				
 			}

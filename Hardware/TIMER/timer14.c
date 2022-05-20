@@ -169,6 +169,8 @@ static void Relay_Heat_Keep(INT8U realtemp,INT8U heattemp,INT8U lowtemp,INT8U ke
 						      heatflag = 1;
 									nvic_irq_disable(EXTI4_15_IRQn);       //不使能
 									timer_disable(TIMER14);                //定时器不使能
+						      /*填充加热状态*/
+						      Mdu_Data_Auto_Update(ProData3,1,TRUE); 
 						
 									RELAY_HEAT_ON;
 					}	
